@@ -1,0 +1,448 @@
+---
+title-slide-attributes:
+  data-background-image: images/cloud.jpeg
+  data-background-size: cover
+---
+
+
+:::: {.columns}
+::: {.column width="30%"}
+![](images/rata.jpeg){#fi-profile}
+:::
+
+::: {.column width="60%" #info .no-bullets}
+- Nils Ratnaweera
+- ZHAW School of Life Sciences and Facility Management
+- Institute of Natural Resource Sciences
+- Grüentalstrasse 14
+- 8820 Wädenswil
+- <br>
+- +41 (0) 58 934 55 63
+- nils.ratnaweera@zhaw.ch
+- <br>
+- Position at the ZHAW
+- Research Associate at the Research Group for Geoinformatics
+- www.zhaw.ch/iunr/geoinformatik
+
+:::
+::::
+
+
+
+# Remote Sensing {data-background-image="images/atmosphere_geo5_2018235_lrg.jpg" data-background-size="contain"}
+
+
+## {data-background-image="images/Capella-Space-Rodnykivka-airfield-1.jpg" data-background-size="contain"}
+
+
+## 
+
+
+{{< video https://youtu.be/b4eLTYUcj7k?si=VPyiLeHQQ41hie6I width="100%" height="100%" >}}
+
+## {data-background-image="images/remotesensing-12-01949-g002-540943033.png" data-background-size="contain"}
+
+Source: www.vrogue.co
+
+
+
+
+
+# Why in the Cloud? {data-background-image="images/small-fire-butterfly-8224901_1280.jpg"}
+
+## Data Explosion
+
+![](images/Datenvolumen_D-SDA.jpg)
+
+Source: [dlr.de](https://www.dlr.de/eoc/en/desktopdefault.aspx/tabid-12632/22039_read-51751)
+
+::: {.notes}
+- We in the middle of an explosion of Earth Observation data
+- Growth of Data is outpacing the growth of desktop harddrives AND internet bandwidth capacity
+:::
+
+## Paradigm Shift
+
+:::: {.r-hstack}
+::: {data-id="code"}
+<i class="fa-solid fa-code fa-2x fa-border"></i>
+:::
+
+::: {.r-vstack}
+<i data-id="arrow" class="fa-solid fa-arrow-left fa-1x fa-border"></i>
+:::
+
+::: {data-id="data"}
+<i class="fa-solid fa-database fa-2x fa-border"></i>
+:::
+::::
+
+## Paradigm Shift 
+
+
+- ~~Data → Code~~
+- Code → Data
+
+
+
+## Which EO Platform?
+
+- Google Earth Engine (GEE)
+- Microsoft Planetary Computer (MPC)
+- Earth on AWS 
+- Sentinel Hub 
+- OpenEO 
+- Open Data Cube (ODC)
+- SEPAL 
+- JEODPP 
+- pipsCloud 
+
+::: {.notes}
+Over the years, a large number of EO-Platforms have emerged.
+I find the openEO plattform to be especially promising
+:::
+
+## Platform Overview
+
+Gomes et al. (2020): An Overview of Platforms for Big Earth Observation Data Management and Analysis
+
+[https://doi.org/10.3390/rs12081253](https://doi.org/10.3390/rs12081253)
+
+(outdated)
+
+::: {.notes}
+MPC and AWS missing!
+:::
+
+## OpenEO
+
+![](images/openeo_logo.png)
+
+openEO develops an open API to connect R, Python, JavaScript and other clients to big Earth observation cloud back-ends in a simple and unified way.
+
+::: {.notes}
+OpenEO:
+- is an open source project
+- provides a standardized API (is a wrapper around existing plattforms)
+- this adds a layer of additional complexity
+- for, is best accessed via the R API which obfuscates the "cloud" aspect
+:::
+
+## Platform Comparison
+
+> ...most people prefer GEE mostly because it's the good ol' reliable when it comes to EO data on the cloud. Mature, well-documented and a huge community. 
+> 
+> MPC is the new kid on the block, they provide a more bare-bone version of GEE, with the added advantage of connecting your own computing environment on Azure.
+
+[source](https://www.reddit.com/r/remotesensing/comments/16cddfa/confused_on_the_big_data_platforms/)
+
+## Carbon Footprint?
+
+[cloudcarbonfootprint.org](https://www.cloudcarbonfootprint.org/)
+
+::: {.notes}
+- Cloud computing is a major contributor to global warming
+- There are a number of tools to calculate the carbon footprint of your cloud usage
+- It is important to be aware of this
+:::
+
+# Google Earth Engine {data-background-image="images/earth-2254769_1280.jpg"}
+
+## {data-background-color="gray"}
+
+![](images/gee.png)
+
+::: {.notes}
+The code editor only understands JavaScript!
+:::
+
+## geemap
+
+geemap: A Python package for interactive geospatial analysis and visualization with Google Earth Engine
+
+[geemap.org](https://geemap.org/)
+
+
+
+# Introduction to Javascript {data-background-image="images/child-2887483_1280.jpg"}
+
+<small style="text-shadow: 2px 2px #090909;">(*very* briefly)</small>
+
+## Getting Started
+
+1. Open a browser window
+2. Press `F12` to open the developer tools
+3. Go to the `console` tab
+4. Follow along! (Demo time)
+
+::: {.notes}
+Walk through the code in `01-browser-console-demo.md`
+:::
+
+## Recap
+
+## Variable Declaration
+
+```javascript
+// Variables are used to store objects, and are defined
+// using the keyword var.
+var the_answer = 42;
+
+// String objects start and end with double quotes.
+var my_variable = "I am a string";
+```
+
+```javascript
+// there are other ways to declare variables in js
+let the_answer = 42;
+const the_answer = 42;
+// we will ignore these
+```
+
+## Statements
+
+```javascript
+// Statements *should* end in a semi-colon
+var test = 'I feel incomplete...'
+
+var test = 'I feel complete...';
+```
+
+## HTML Script Setup
+
+1. Open a **plain text editor**
+2. Create a file with the extension `.html`
+3. Create a `script` tag
+
+```html
+<script>
+
+</script>
+```
+
+4. Open this file in the browser
+5. Follow along! (Demo time)
+
+::: {.notes}
+walk through the script `02-basic-html-script-demo.md`
+:::
+
+## Task 1
+
+1. Create a variable `myname` with your name
+2. Create a variable `myage` with your age
+3. Calculate your age in days and store it in `myage_days`
+4. Print to the console: `Hi, my name is ... and I am ... days old`
+
+::: {.notes}
+solution is in `03-basic-html-script-task.md`
+:::
+
+## Demo Continues...
+
+::: {.notes}
+Walk through the script `04-basic-html-script-demo.md`
+:::
+
+## Task 2
+
+- Create a function that converts a number of years to a number of days
+- Name the function `years2days`
+
+```javascript
+// this is the syntax for creating a function:
+function say_something(what){
+    // do something
+};
+```
+
+::: {.notes}
+solution is in `05-function-years2days-task.md`
+:::
+
+## Demo Continues...
+
+::: {.notes}
+solution is in `06-introduction-to-methods-demo.md`
+:::
+
+## Recap
+
+## Comments
+
+```javascript
+// Line comments start with two forward slashes.
+// Like this line.
+
+/*
+Multi line comments start with a forward slash
+and a star,
+and end with a star and a forward slash.
+*/
+```
+
+## Arrays
+
+```javascript
+// Square brackets are used to create a list of items
+var my_list = ['eggplant', 'apple', 'wheat'];
+
+// Square brackets are also used for selecting items within
+// a list. 0 refers to the first item in the list.
+my_list[0];
+```
+
+## Dictionaries
+
+```javascript
+// Curly brackets are used to define "dictionaries"
+var my_dict = {'food':'bread', 'color':'red', 'number':42};
+
+// Square brackets are used to access items (by key).
+my_dict['color'];
+
+// Or you can use the dot notation to get the same result.
+my_dict.color;
+```
+
+## Functions
+
+```javascript
+// Functions can be defined as a way to reuse code and
+// make it easier to read.
+function years2days(years){
+    return years*365
+};
+
+years2days(34);
+```
+
+## Functions (Alternative Syntax)
+
+```javascript
+// Functions can be defined as a way to reuse code and
+// make it easier to read.
+var say_hello = function(string) {
+    return 'Hello ' + string + '!';
+};
+
+say_hello('world');
+```
+
+# Javascript in Websites {data-background-image="images/worker-5736096_1280.jpg"}
+
+## The Web Trinity
+
+JS is part of a **trinity** that defines most of the web
+
+![](https://www.phon.ucl.ac.uk/courses/spsci/webprog/images/html-css-js.png)
+
+## Let's Explore
+
+Let's take this opportunity to explore and understand this.
+
+(Demo time)
+
+::: {.notes}
+Walk through the script `07-years2days-website.md`
+:::
+
+## Challenge
+
+Create an application that takes your name as an input and returns the name backwards.
+
+Tip: use the methods `split`, `reverse` and `join`.
+
+::: {.notes}
+Solution is in `08-reverse-name-website.html`
+:::
+
+# First Steps in Google Earth Engine {data-background-image="images/turtle-2201433_1280.jpg"}
+
+## Instructions
+
+1. Go to [code.earthengine.google.com](https://code.earthengine.google.com)
+2. Play around with the Code Editor (create vars, dics, lists...)
+3. Navigate to a location you know (e.g. your hometown) using the search bar
+4. Look for a dataset in the search bar
+5. Create a Repo (*New*→*Repo*) named *DigitalLifeScience Demos*
+6. Create a new File in this Repo named *Demo_1*
+
+## Demo 1: Unispectral Data
+
+::: {.notes}
+do the demo *Demo 1: Unispectral Data*
+:::
+
+## Task: Renewable Energy Site Selection
+
+Identify suitable areas for renewable energy installation:
+
+- Elevation: 500 - 1000 MASL
+- Slope: 3 - 6°
+- Aspect: South facing, between 315° and 45°
+
+## Demo 2: Multispectral Data
+
+## Electromagnetic Spectrum in Sentinel S2
+
+![](images/sentinel_2_channels.png){style="background-color: white;"}
+
+::: {.notes}
+- VIS: Visible light
+- NIR: Near Infrared
+- SIWIR: Short wave IR
+- TIR: Thermal IR
+:::
+
+## Create a True Color Image
+
+Create a *True Color Image* from the R-/G-/B-Bands
+
+## Demo 3: Multispectral NDVI
+
+## NDVI: Normalized Difference Vegetation Index
+
+![](images/ndvi_resized-2048x1061.jpg)
+
+## NDVI Formula
+
+$$\text{NDVI} = \frac{\text{NIR}-\text{Red}}{\text{NIR}+\text{Red}}$$
+
+## Demo 5: Forest Regrowth
+
+# Your Own Project in Google Earth Engine {data-background-image="images/turtle-1850190_1280.jpg"}
+
+## Afternoon Task
+
+Your task for this afternoon:
+
+1. Reimplement one of the demonstrated analyses to a different area (or implement your own idea)
+2. Download your results (e.g. as a csv) to your local harddrive
+3. Write a brief description of your analysis and your results (use Jupyter, Rmarkdown or Quarto)
+4. (Optional): Submit via mail to rata@zhaw.ch
+
+# Graded Assignment {data-background-image="images/sunflowers-8980921_1280.jpg"}
+
+## Assignment Details
+
+Apply the expertise and skills you acquire within the two remote sensing sessions to design and elaborate your own research project. Make sure to describe the motivation, a suitable analysis approach and applicable remote sensing data.
+
+The short research proposal is not to exceed 1 page and can include one figure.
+
+Deadline is one week after the final session of the remote sensing input (2.10.2025)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

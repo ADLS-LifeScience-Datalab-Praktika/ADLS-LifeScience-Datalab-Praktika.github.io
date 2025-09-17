@@ -1,3 +1,32 @@
+#fi-profile{
+  border-radius: 50%;
+}
+
+.x-large{
+  font-size: large;
+}
+
+h1{
+  text-shadow: 4px 4px #090909 !important;
+}
+
+.subtitle{
+  text-shadow: 2px 2px #090909 !important;
+}
+
+#info{
+  font-size: x-large;
+}
+
+#info > ul > li{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
 .streaming {
     --fa-border-padding: 20px;
     --fa-border-color: none
