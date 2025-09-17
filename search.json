@@ -1,0 +1,296 @@
+[
+  {
+    "objectID": "index.html#section-2",
+    "href": "index.html#section-2",
+    "title": "Life Sciences Datalab",
+    "section": "",
+    "text": "Quelle: www.vrogue.co"
+  },
+  {
+    "objectID": "index.html#datenexplosion",
+    "href": "index.html#datenexplosion",
+    "title": "Life Sciences Datalab",
+    "section": "Datenexplosion",
+    "text": "Datenexplosion\n\nQuelle: dlr.de\n\n\nWir befinden uns mitten in einer Explosion von Earth Observation Daten\nDas Datenwachstum übertrifft das Wachstum von Desktop-Festplatten UND Internet-Bandbreitenkapazität"
+  },
+  {
+    "objectID": "index.html#paradigmenwechsel",
+    "href": "index.html#paradigmenwechsel",
+    "title": "Life Sciences Datalab",
+    "section": "Paradigmenwechsel",
+    "text": "Paradigmenwechsel\n\nDaten → Code\nCode → Daten"
+  },
+  {
+    "objectID": "index.html#welche-eo-platform",
+    "href": "index.html#welche-eo-platform",
+    "title": "Life Sciences Datalab",
+    "section": "Welche EO Platform?",
+    "text": "Welche EO Platform?\n\nGoogle Earth Engine (GEE)\nMicrosoft Planetary Computer (MPC)\nEarth on AWS\nSentinel Hub\nOpenEO\nOpen Data Cube (ODC)\nSEPAL\nJEODPP\npipsCloud\n\n\nÜber die Jahre ist eine große Anzahl von EO-Plattformen entstanden. Ich finde die openEO-Plattform besonders vielversprechend"
+  },
+  {
+    "objectID": "index.html#plattform-übersicht",
+    "href": "index.html#plattform-übersicht",
+    "title": "Life Sciences Datalab",
+    "section": "Plattform-Übersicht",
+    "text": "Plattform-Übersicht\nGomes et al. (2020): An Overview of Platforms for Big Earth Observation Data Management and Analysis\nhttps://doi.org/10.3390/rs12081253\n(veraltet)\n\nMPC und AWS fehlen!"
+  },
+  {
+    "objectID": "index.html#openeo",
+    "href": "index.html#openeo",
+    "title": "Life Sciences Datalab",
+    "section": "OpenEO",
+    "text": "OpenEO\n\nopenEO entwickelt eine offene API, um R, Python, JavaScript und andere Clients auf einfache und einheitliche Weise mit großen Earth Observation Cloud-Backends zu verbinden.\n\nOpenEO: - ist ein Open-Source-Projekt - bietet eine standardisierte API (ist ein Wrapper um bestehende Plattformen) - dies fügt eine zusätzliche Komplexitätsebene hinzu - wird am besten über die R-API verwendet, welche den “Cloud”-Aspekt verschleiert"
+  },
+  {
+    "objectID": "index.html#plattform-vergleich",
+    "href": "index.html#plattform-vergleich",
+    "title": "Life Sciences Datalab",
+    "section": "Plattform-Vergleich",
+    "text": "Plattform-Vergleich\n\n…die meisten Leute bevorzugen GEE hauptsächlich, weil es das gute alte zuverlässige System ist, wenn es um EO-Daten in der Cloud geht. Ausgereift, gut dokumentiert und eine riesige Community.\nMPC ist der neue Spieler im Feld, sie bieten eine abgespeckte Version von GEE mit dem zusätzlichen Vorteil, die eigene Computing-Umgebung auf Azure zu verbinden.\n\nQuelle"
+  },
+  {
+    "objectID": "index.html#co2-fußabdruck",
+    "href": "index.html#co2-fußabdruck",
+    "title": "Life Sciences Datalab",
+    "section": "CO2-Fußabdruck?",
+    "text": "CO2-Fußabdruck?\ncloudcarbonfootprint.org\n\n\nCloud Computing ist ein wichtiger Beitrag zur globalen Erwärmung\nEs gibt eine Reihe von Tools zur Berechnung des CO2-Fußabdrucks Ihrer Cloud-Nutzung\nEs ist wichtig, sich dessen bewusst zu sein"
+  },
+  {
+    "objectID": "index.html#section-3",
+    "href": "index.html#section-3",
+    "title": "Life Sciences Datalab",
+    "section": "",
+    "text": "Der Code-Editor versteht nur JavaScript!"
+  },
+  {
+    "objectID": "index.html#geemap",
+    "href": "index.html#geemap",
+    "title": "Life Sciences Datalab",
+    "section": "geemap",
+    "text": "geemap\ngeemap: Ein Python-Paket für interaktive Geospatial Analysis und Visualisierung mit Google Earth Engine\ngeemap.org"
+  },
+  {
+    "objectID": "index.html#erste-schritte",
+    "href": "index.html#erste-schritte",
+    "title": "Life Sciences Datalab",
+    "section": "Erste Schritte",
+    "text": "Erste Schritte\n\nÖffnen Sie ein Browserfenster\nDrücken Sie F12, um die Entwicklertools zu öffnen\nGehen Sie zum console-Tab\nFolgen Sie mit! (Demo-Zeit)\n\n\nGehen Sie den Code in 01-browser-console-demo.md durch"
+  },
+  {
+    "objectID": "index.html#zusammenfassung",
+    "href": "index.html#zusammenfassung",
+    "title": "Life Sciences Datalab",
+    "section": "Zusammenfassung",
+    "text": "Zusammenfassung"
+  },
+  {
+    "objectID": "index.html#variablen-deklaration",
+    "href": "index.html#variablen-deklaration",
+    "title": "Life Sciences Datalab",
+    "section": "Variablen-Deklaration",
+    "text": "Variablen-Deklaration\n// Variablen werden verwendet, um Objekte zu speichern und werden\n// mit dem Schlüsselwort var definiert.\nvar the_answer = 42;\n\n// String-Objekte beginnen und enden mit Anführungszeichen.\nvar my_variable = \"I am a string\";\n// es gibt andere Wege, Variablen in js zu deklarieren\nlet the_answer = 42;\nconst the_answer = 42;\n// diese ignorieren wir"
+  },
+  {
+    "objectID": "index.html#anweisungen",
+    "href": "index.html#anweisungen",
+    "title": "Life Sciences Datalab",
+    "section": "Anweisungen",
+    "text": "Anweisungen\n// Anweisungen *sollten* mit einem Semikolon enden\nvar test = 'I feel incomplete...'\n\nvar test = 'I feel complete...';"
+  },
+  {
+    "objectID": "index.html#html-script-einrichtung",
+    "href": "index.html#html-script-einrichtung",
+    "title": "Life Sciences Datalab",
+    "section": "HTML Script Einrichtung",
+    "text": "HTML Script Einrichtung\n\nÖffnen Sie einen Texteditor\nErstellen Sie eine Datei mit der Endung .html\nErstellen Sie ein script-Tag\n\n&lt;script&gt;\n\n&lt;/script&gt;\n\nÖffnen Sie diese Datei im Browser\nFolgen Sie mit! (Demo-Zeit)\n\n\nGehen Sie das Script 02-basic-html-script-demo.md durch"
+  },
+  {
+    "objectID": "index.html#aufgabe-1",
+    "href": "index.html#aufgabe-1",
+    "title": "Life Sciences Datalab",
+    "section": "Aufgabe 1",
+    "text": "Aufgabe 1\n\nErstellen Sie eine Variable myname mit Ihrem Namen\nErstellen Sie eine Variable myage mit Ihrem Alter\nBerechnen Sie Ihr Alter in Tagen und speichern Sie es in myage_days\nGeben Sie auf der Konsole aus: Hi, my name is ... and I am ... days old\n\n\nLösung ist in 03-basic-html-script-task.md"
+  },
+  {
+    "objectID": "index.html#demo-geht-weiter",
+    "href": "index.html#demo-geht-weiter",
+    "title": "Life Sciences Datalab",
+    "section": "Demo geht weiter…",
+    "text": "Demo geht weiter…\n\nGehen Sie das Script 04-basic-html-script-demo.md durch"
+  },
+  {
+    "objectID": "index.html#aufgabe-2",
+    "href": "index.html#aufgabe-2",
+    "title": "Life Sciences Datalab",
+    "section": "Aufgabe 2",
+    "text": "Aufgabe 2\n\nErstellen Sie eine Funktion, die eine Anzahl von Jahren in eine Anzahl von Tagen umwandelt\nNennen Sie die Funktion years2days\n\n// dies ist die Syntax zum Erstellen einer Funktion:\nfunction say_something(what){\n    // mache etwas\n};\n\nLösung ist in 05-function-years2days-task.md"
+  },
+  {
+    "objectID": "index.html#demo-geht-weiter-1",
+    "href": "index.html#demo-geht-weiter-1",
+    "title": "Life Sciences Datalab",
+    "section": "Demo geht weiter…",
+    "text": "Demo geht weiter…\n\nLösung ist in 06-introduction-to-methods-demo.md"
+  },
+  {
+    "objectID": "index.html#zusammenfassung-1",
+    "href": "index.html#zusammenfassung-1",
+    "title": "Life Sciences Datalab",
+    "section": "Zusammenfassung",
+    "text": "Zusammenfassung"
+  },
+  {
+    "objectID": "index.html#kommentare",
+    "href": "index.html#kommentare",
+    "title": "Life Sciences Datalab",
+    "section": "Kommentare",
+    "text": "Kommentare\n// Zeilenkommentare beginnen mit zwei Schrägstrichen.\n// Wie diese Zeile.\n\n/*\nMehrzeilige Kommentare beginnen mit einem Schrägstrich\nund einem Stern,\nund enden mit einem Stern und einem Schrägstrich.\n*/"
+  },
+  {
+    "objectID": "index.html#arrays",
+    "href": "index.html#arrays",
+    "title": "Life Sciences Datalab",
+    "section": "Arrays",
+    "text": "Arrays\n// Eckige Klammern werden verwendet, um eine Liste von Elementen zu erstellen\nvar my_list = ['eggplant', 'apple', 'wheat'];\n\n// Eckige Klammern werden auch verwendet, um Elemente in\n// einer Liste auszuwählen. 0 bezieht sich auf das erste Element in der Liste.\nmy_list[0];"
+  },
+  {
+    "objectID": "index.html#wörterbücher",
+    "href": "index.html#wörterbücher",
+    "title": "Life Sciences Datalab",
+    "section": "Wörterbücher",
+    "text": "Wörterbücher\n// Geschweifte Klammern werden verwendet, um \"Wörterbücher\" zu definieren\nvar my_dict = {'food':'bread', 'color':'red', 'number':42};\n\n// Eckige Klammern werden verwendet, um auf Elemente zuzugreifen (nach Schlüssel).\nmy_dict['color'];\n\n// Oder Sie können die Punkt-Notation verwenden, um das gleiche Ergebnis zu erhalten.\nmy_dict.color;"
+  },
+  {
+    "objectID": "index.html#funktionen",
+    "href": "index.html#funktionen",
+    "title": "Life Sciences Datalab",
+    "section": "Funktionen",
+    "text": "Funktionen\n// Funktionen können definiert werden, um Code zu wiederverwenden und\n// ihn leichter lesbar zu machen.\nfunction years2days(years){\n    return years*365\n};\n\nyears2days(34);"
+  },
+  {
+    "objectID": "index.html#funktionen-alternative-syntax",
+    "href": "index.html#funktionen-alternative-syntax",
+    "title": "Life Sciences Datalab",
+    "section": "Funktionen (Alternative Syntax)",
+    "text": "Funktionen (Alternative Syntax)\n// Funktionen können definiert werden, um Code zu wiederverwenden und\n// ihn leichter lesbar zu machen.\nvar say_hello = function(string) {\n    return 'Hello ' + string + '!';\n};\n\nsay_hello('world');"
+  },
+  {
+    "objectID": "index.html#die-web-trinität",
+    "href": "index.html#die-web-trinität",
+    "title": "Life Sciences Datalab",
+    "section": "Die Web-Trinität",
+    "text": "Die Web-Trinität\nJS ist Teil einer Trinität, die den größten Teil des Webs definiert"
+  },
+  {
+    "objectID": "index.html#lass-uns-erkunden",
+    "href": "index.html#lass-uns-erkunden",
+    "title": "Life Sciences Datalab",
+    "section": "Lass uns erkunden",
+    "text": "Lass uns erkunden\nLassen Sie uns diese Gelegenheit nutzen, um dies zu erkunden und zu verstehen.\n(Demo-Zeit)\n\nGehen Sie das Script 07-years2days-website.md durch"
+  },
+  {
+    "objectID": "index.html#herausforderung",
+    "href": "index.html#herausforderung",
+    "title": "Life Sciences Datalab",
+    "section": "Herausforderung",
+    "text": "Herausforderung\nErstellen Sie eine Anwendung, die Ihren Namen als Eingabe nimmt und den Namen rückwärts zurückgibt.\nTipp: Verwenden Sie die Methoden split, reverse und join.\n\nLösung ist in 08-reverse-name-website.html"
+  },
+  {
+    "objectID": "index.html#anweisungen-1",
+    "href": "index.html#anweisungen-1",
+    "title": "Life Sciences Datalab",
+    "section": "Anweisungen",
+    "text": "Anweisungen\n\nGehen Sie zu code.earthengine.google.com\nSpielen Sie mit dem Code-Editor herum (erstellen Sie Variablen, Wörterbücher, Listen…)\nNavigieren Sie zu einem Ort, den Sie kennen (z.B. Ihre Heimatstadt) über die Suchleiste\nSuchen Sie nach einem Datensatz in der Suchleiste\nErstellen Sie ein Repo (New→Repo) namens DigitalLifeScience Demos\nErstellen Sie eine neue Datei in diesem Repo namens Demo_1"
+  },
+  {
+    "objectID": "index.html#demo-1-unispectral-data",
+    "href": "index.html#demo-1-unispectral-data",
+    "title": "Life Sciences Datalab",
+    "section": "Demo 1: Unispectral Data",
+    "text": "Demo 1: Unispectral Data\n\nFühren Sie die Demo Demo 1: Unispectral Data durch"
+  },
+  {
+    "objectID": "index.html#aufgabe-standortauswahl-für-erneuerbare-energien",
+    "href": "index.html#aufgabe-standortauswahl-für-erneuerbare-energien",
+    "title": "Life Sciences Datalab",
+    "section": "Aufgabe: Standortauswahl für Erneuerbare Energien",
+    "text": "Aufgabe: Standortauswahl für Erneuerbare Energien\nIdentifizieren Sie geeignete Gebiete für die Installation erneuerbarer Energien:\n\nHöhe: 500 - 1000 m ü. M.\nNeigung: 3 - 6°\nAusrichtung: Südausrichtung, zwischen 315° und 45°"
+  },
+  {
+    "objectID": "index.html#demo-2-multispektrale-daten",
+    "href": "index.html#demo-2-multispektrale-daten",
+    "title": "Life Sciences Datalab",
+    "section": "Demo 2: Multispektrale Daten",
+    "text": "Demo 2: Multispektrale Daten"
+  },
+  {
+    "objectID": "index.html#elektromagnetisches-spektrum-in-sentinel-s2",
+    "href": "index.html#elektromagnetisches-spektrum-in-sentinel-s2",
+    "title": "Life Sciences Datalab",
+    "section": "Elektromagnetisches Spektrum in Sentinel S2",
+    "text": "Elektromagnetisches Spektrum in Sentinel S2\n\n\n\nVIS: Sichtbares Licht\nNIR: Nahinfrarot\nSIWIR: Kurzwellen-IR\nTIR: Thermisches IR"
+  },
+  {
+    "objectID": "index.html#erstellen-sie-ein-echtfarben-bild",
+    "href": "index.html#erstellen-sie-ein-echtfarben-bild",
+    "title": "Life Sciences Datalab",
+    "section": "Erstellen Sie ein Echtfarben-Bild",
+    "text": "Erstellen Sie ein Echtfarben-Bild\nErstellen Sie ein Echtfarben-Bild aus den R-/G-/B-Bändern"
+  },
+  {
+    "objectID": "index.html#demo-3-multispektral-ndvi",
+    "href": "index.html#demo-3-multispektral-ndvi",
+    "title": "Life Sciences Datalab",
+    "section": "Demo 3: Multispektral NDVI",
+    "text": "Demo 3: Multispektral NDVI"
+  },
+  {
+    "objectID": "index.html#ndvi-normalized-difference-vegetation-index",
+    "href": "index.html#ndvi-normalized-difference-vegetation-index",
+    "title": "Life Sciences Datalab",
+    "section": "NDVI: Normalized Difference Vegetation Index",
+    "text": "NDVI: Normalized Difference Vegetation Index"
+  },
+  {
+    "objectID": "index.html#ndvi-formula",
+    "href": "index.html#ndvi-formula",
+    "title": "Life Sciences Datalab",
+    "section": "NDVI Formula",
+    "text": "NDVI Formula\n\\[\\text{NDVI} = \\frac{\\text{NIR}-\\text{Red}}{\\text{NIR}+\\text{Red}}\\]"
+  },
+  {
+    "objectID": "index.html#demo-5-waldnachwachstum",
+    "href": "index.html#demo-5-waldnachwachstum",
+    "title": "Life Sciences Datalab",
+    "section": "Demo 5: Waldnachwachstum",
+    "text": "Demo 5: Waldnachwachstum"
+  },
+  {
+    "objectID": "index.html#nachmittagsaufgabe",
+    "href": "index.html#nachmittagsaufgabe",
+    "title": "Life Sciences Datalab",
+    "section": "Nachmittagsaufgabe",
+    "text": "Nachmittagsaufgabe\nIhre Aufgabe für heute Nachmittag:\n\nImplementieren Sie eine der gezeigten Analysen für ein anderes Gebiet (oder setzen Sie Ihre eigene Idee um)\nLaden Sie Ihre Ergebnisse (z.B. als CSV) auf Ihre lokale Festplatte herunter\nSchreiben Sie eine kurze Beschreibung Ihrer Analyse und Ihrer Ergebnisse (verwenden Sie Jupyter, Rmarkdown oder Quarto)\n(Optional): Senden Sie per E-Mail an rata@zhaw.ch"
+  },
+  {
+    "objectID": "index.html#aufgabendetails",
+    "href": "index.html#aufgabendetails",
+    "title": "Life Sciences Datalab",
+    "section": "Aufgabendetails",
+    "text": "Aufgabendetails\nWenden Sie das Fachwissen und die Fähigkeiten an, die Sie in den beiden Remote Sensing Sitzungen erworben haben, um Ihr eigenes Forschungsprojekt zu entwerfen und auszuarbeiten. Beschreiben Sie die Motivation, einen geeigneten Analyseansatz und anwendbare Remote Sensing Daten.\nDer kurze Forschungsantrag soll eine Seite nicht überschreiten und kann eine Abbildung enthalten.\nAbgabetermin ist eine Woche nach der letzten Remote Sensing Sitzung (2.10.2025)"
+  },
+  {
+    "objectID": "Readme.html#notizen-2023",
+    "href": "Readme.html#notizen-2023",
+    "title": "Life Sciences Datalab",
+    "section": "Notizen 2023",
+    "text": "Notizen 2023\n\nJavascripts in Websites stösst auf interesse. Erstellen einer eignen Website (Name Reverser) mit Netlify drop kurz demonstrieren (zum mitmachen)\nLeistungsnachweis\n\nals eigens Projekt in 2 - 2.5h durchzuführen und präsentieren ist sinnvoll.\nkeine gruppen, einzelarbeit ist sinnvoll\nmax 3 minuten, slides zentral sammeln (kein Umstecken der Laptops)\ndie Themen deutlich vereinfachen. Stark anlehnen an die Demos, die studierende variieren dann lediglich den Untersuchungsraum"
+  },
+  {
+    "objectID": "Readme.html#timeline",
+    "href": "Readme.html#timeline",
+    "title": "Life Sciences Datalab",
+    "section": "Timeline",
+    "text": "Timeline\n\n\n\nTime\nTopic\n\n\n\n\n08:00 - 08:15\nWhy Cloud Based and Google Earth Engine\n\n\n08:15 - 08:35\nIntroduction to JavaScript (Demo 1 & Demo 2) -Recap (?)\n\n\n*************\n*************\n\n\n08:50 - 09:10\nDemo Detour Creating a Website\n\n\n09:10 - 09:35\nTask: Create a website that reverses your name\n\n\n*************\n*************\n\n\n09:50 - 10:35\nGEE Demos 0 - 3\n\n\n*************\n*************\n\n\n10:50 - 11:35\nGEE Demos 4 - 6"
+  }
+]
