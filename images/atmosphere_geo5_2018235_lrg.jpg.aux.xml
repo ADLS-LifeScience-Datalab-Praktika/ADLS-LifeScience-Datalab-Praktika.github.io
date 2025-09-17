@@ -1,0 +1,79 @@
+<PAMDataset>
+  <Metadata>
+    <MDI key="EXIF_ColorSpace">1</MDI>
+    <MDI key="EXIF_DateTime">2018:08:23 15:09:01</MDI>
+    <MDI key="EXIF_Orientation">1</MDI>
+    <MDI key="EXIF_PixelXDimension">8000</MDI>
+    <MDI key="EXIF_PixelYDimension">4000</MDI>
+    <MDI key="EXIF_ResolutionUnit">2</MDI>
+    <MDI key="EXIF_Software">Adobe Photoshop CC 2017 (Macintosh)</MDI>
+    <MDI key="EXIF_XResolution">(72)</MDI>
+    <MDI key="EXIF_YResolution">(72)</MDI>
+  </Metadata>
+  <Metadata domain="IMAGE_STRUCTURE">
+    <MDI key="SOURCE_COLOR_SPACE">YCbCr</MDI>
+    <MDI key="INTERLEAVE">PIXEL</MDI>
+    <MDI key="COMPRESSION">JPEG</MDI>
+  </Metadata>
+  <Metadata domain="xml:XMP" format="xml">
+    <?xpacket begin="&#xFEFF;" id="W5M0MpCehiHzreSzNTczkc9d"?>
+    <x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c138 79.159824, 2016/09/14-01:09:01        ">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+        <rdf:Description rdf:about="" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:stEvt="http://ns.adobe.com/xap/1.0/sType/ResourceEvent#" xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#" xmp:CreatorTool="Adobe Photoshop CC 2017 (Macintosh)" xmp:CreateDate="2018-08-23T10:49:15-04:00" xmp:ModifyDate="2018-08-23T15:09:01-04:00" xmp:MetadataDate="2018-08-23T15:09:01-04:00" dc:format="image/jpeg" photoshop:ColorMode="3" xmpMM:InstanceID="xmp.iid:25776e0c-f4df-4710-8b72-d87ee4e2ebb4" xmpMM:DocumentID="adobe:docid:photoshop:19defe02-e796-117b-83f0-e1bfd87532ad" xmpMM:OriginalDocumentID="xmp.did:a7e58b11-4153-4e6d-8b95-5bb3fa043125">
+          <xmpMM:History>
+            <rdf:Seq>
+              <rdf:li stEvt:action="created" stEvt:instanceID="xmp.iid:a7e58b11-4153-4e6d-8b95-5bb3fa043125" stEvt:when="2018-08-23T10:49:15-04:00" stEvt:softwareAgent="Adobe Photoshop CC 2017 (Macintosh)" />
+              <rdf:li stEvt:action="converted" stEvt:parameters="from image/png to application/vnd.adobe.photoshop" />
+              <rdf:li stEvt:action="saved" stEvt:instanceID="xmp.iid:945856a3-adfc-4ddd-b840-5277f624ec0f" stEvt:when="2018-08-23T12:52:15-04:00" stEvt:softwareAgent="Adobe Photoshop CC 2017 (Macintosh)" stEvt:changed="/" />
+              <rdf:li stEvt:action="saved" stEvt:instanceID="xmp.iid:0f1ac4c9-f939-41e5-8047-ffadd4b79021" stEvt:when="2018-08-23T15:09:01-04:00" stEvt:softwareAgent="Adobe Photoshop CC 2017 (Macintosh)" stEvt:changed="/" />
+              <rdf:li stEvt:action="converted" stEvt:parameters="from application/vnd.adobe.photoshop to image/jpeg" />
+              <rdf:li stEvt:action="derived" stEvt:parameters="converted from application/vnd.adobe.photoshop to image/jpeg" />
+              <rdf:li stEvt:action="saved" stEvt:instanceID="xmp.iid:25776e0c-f4df-4710-8b72-d87ee4e2ebb4" stEvt:when="2018-08-23T15:09:01-04:00" stEvt:softwareAgent="Adobe Photoshop CC 2017 (Macintosh)" stEvt:changed="/" />
+            </rdf:Seq>
+          </xmpMM:History>
+          <xmpMM:DerivedFrom stRef:instanceID="xmp.iid:0f1ac4c9-f939-41e5-8047-ffadd4b79021" stRef:documentID="xmp.did:a7e58b11-4153-4e6d-8b95-5bb3fa043125" stRef:originalDocumentID="xmp.did:a7e58b11-4153-4e6d-8b95-5bb3fa043125" />
+        </rdf:Description>
+      </rdf:RDF>
+    </x:xmpmeta>
+    <?xpacket end="w"?>
+  </Metadata>
+  <PAMRasterBand band="1">
+    <Metadata>
+      <MDI key="STATISTICS_APPROXIMATE">YES</MDI>
+      <MDI key="STATISTICS_MINIMUM">0</MDI>
+      <MDI key="STATISTICS_MAXIMUM">255</MDI>
+      <MDI key="STATISTICS_MEAN">45.236418</MDI>
+      <MDI key="STATISTICS_STDDEV">32.437992177835</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+    <Metadata domain="IMAGE_STRUCTURE">
+      <MDI key="COMPRESSION">JPEG</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="2">
+    <Metadata>
+      <MDI key="STATISTICS_APPROXIMATE">YES</MDI>
+      <MDI key="STATISTICS_MINIMUM">0</MDI>
+      <MDI key="STATISTICS_MAXIMUM">255</MDI>
+      <MDI key="STATISTICS_MEAN">39.778956</MDI>
+      <MDI key="STATISTICS_STDDEV">23.455748710072</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+    <Metadata domain="IMAGE_STRUCTURE">
+      <MDI key="COMPRESSION">JPEG</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="3">
+    <Metadata>
+      <MDI key="STATISTICS_APPROXIMATE">YES</MDI>
+      <MDI key="STATISTICS_MINIMUM">0</MDI>
+      <MDI key="STATISTICS_MAXIMUM">255</MDI>
+      <MDI key="STATISTICS_MEAN">49.130152</MDI>
+      <MDI key="STATISTICS_STDDEV">31.004604439613</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+    <Metadata domain="IMAGE_STRUCTURE">
+      <MDI key="COMPRESSION">JPEG</MDI>
+    </Metadata>
+  </PAMRasterBand>
+</PAMDataset>
