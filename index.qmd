@@ -1,10 +1,4 @@
 ---
-title: "Remote Sensing und Geospatial Analysis in der Cloud"
-format:
-  revealjs:
-    css: css/style.css
-    embed-resources: false
-    theme: dark
 title-slide-attributes:
   data-background-image: images/cloud.jpeg
   data-background-size: cover
@@ -67,21 +61,6 @@ Quelle: [dlr.de](https://www.dlr.de/eoc/en/desktopdefault.aspx/tabid-12632/22039
 - Das Datenwachstum übertrifft das Wachstum von Desktop-Festplatten UND Internet-Bandbreitenkapazität
 :::
 
-## Paradigmenwechsel
-
-:::: {.r-hstack}
-::: {data-id="code"}
-<i class="fa-solid fa-code fa-2x fa-border"></i>
-:::
-
-::: {.r-vstack}
-<i data-id="arrow" class="fa-solid fa-arrow-left fa-1x fa-border"></i>
-:::
-
-::: {data-id="data"}
-<i class="fa-solid fa-database fa-2x fa-border"></i>
-:::
-::::
 
 ## Paradigmenwechsel 
 
@@ -414,6 +393,7 @@ Erstellen Sie ein *Echtfarben-Bild* aus den R-/G-/B-Bändern
 ## NDVI Formula
 
 $$\text{NDVI} = \frac{\text{NIR}-\text{Red}}{\text{NIR}+\text{Red}}$$
+
 
 ## Demo 5: Waldnachwachstum
 
