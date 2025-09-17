@@ -1,4 +1,10 @@
 ---
+title: "Remote Sensing und Geospatial Analysis in der Cloud"
+format:
+  revealjs:
+    css: css/style.css
+    embed-resources: false
+    theme: dark
 title-slide-attributes:
   data-background-image: images/cloud.jpeg
   data-background-size: cover
@@ -13,15 +19,15 @@ title-slide-attributes:
 ::: {.column width="60%" #info .no-bullets}
 - Nils Ratnaweera
 - ZHAW School of Life Sciences and Facility Management
-- Institute of Natural Resource Sciences
+- Institut für Umwelt und Natürliche Ressourcen
 - Grüentalstrasse 14
 - 8820 Wädenswil
 - <br>
 - +41 (0) 58 934 55 63
 - nils.ratnaweera@zhaw.ch
 - <br>
-- Position at the ZHAW
-- Research Associate at the Research Group for Geoinformatics
+- Position an der ZHAW
+- Research Associate in der Forschungsgruppe Geoinformatik
 - www.zhaw.ch/iunr/geoinformatik
 
 :::
@@ -42,26 +48,26 @@ title-slide-attributes:
 
 ## {data-background-image="images/remotesensing-12-01949-g002-540943033.png" data-background-size="contain"}
 
-Source: www.vrogue.co
+Quelle: www.vrogue.co
 
 
 
 
 
-# Why in the Cloud? {data-background-image="images/small-fire-butterfly-8224901_1280.jpg"}
+# Warum in der Cloud? {data-background-image="images/small-fire-butterfly-8224901_1280.jpg"}
 
-## Data Explosion
+## Datenexplosion
 
 ![](images/Datenvolumen_D-SDA.jpg)
 
-Source: [dlr.de](https://www.dlr.de/eoc/en/desktopdefault.aspx/tabid-12632/22039_read-51751)
+Quelle: [dlr.de](https://www.dlr.de/eoc/en/desktopdefault.aspx/tabid-12632/22039_read-51751)
 
 ::: {.notes}
-- We in the middle of an explosion of Earth Observation data
-- Growth of Data is outpacing the growth of desktop harddrives AND internet bandwidth capacity
+- Wir befinden uns mitten in einer Explosion von Earth Observation Daten
+- Das Datenwachstum übertrifft das Wachstum von Desktop-Festplatten UND Internet-Bandbreitenkapazität
 :::
 
-## Paradigm Shift
+## Paradigmenwechsel
 
 :::: {.r-hstack}
 ::: {data-id="code"}
@@ -77,15 +83,15 @@ Source: [dlr.de](https://www.dlr.de/eoc/en/desktopdefault.aspx/tabid-12632/22039
 :::
 ::::
 
-## Paradigm Shift 
+## Paradigmenwechsel 
 
 
-- ~~Data → Code~~
-- Code → Data
+- ~~Daten → Code~~
+- Code → Daten
 
 
 
-## Which EO Platform?
+## Welche EO Platform?
 
 - Google Earth Engine (GEE)
 - Microsoft Planetary Computer (MPC)
@@ -98,52 +104,52 @@ Source: [dlr.de](https://www.dlr.de/eoc/en/desktopdefault.aspx/tabid-12632/22039
 - pipsCloud 
 
 ::: {.notes}
-Over the years, a large number of EO-Platforms have emerged.
-I find the openEO plattform to be especially promising
+Über die Jahre ist eine große Anzahl von EO-Plattformen entstanden.
+Ich finde die openEO-Plattform besonders vielversprechend
 :::
 
-## Platform Overview
+## Plattform-Übersicht
 
 Gomes et al. (2020): An Overview of Platforms for Big Earth Observation Data Management and Analysis
 
 [https://doi.org/10.3390/rs12081253](https://doi.org/10.3390/rs12081253)
 
-(outdated)
+(veraltet)
 
 ::: {.notes}
-MPC and AWS missing!
+MPC und AWS fehlen!
 :::
 
 ## OpenEO
 
 ![](images/openeo_logo.png)
 
-openEO develops an open API to connect R, Python, JavaScript and other clients to big Earth observation cloud back-ends in a simple and unified way.
+openEO entwickelt eine offene API, um R, Python, JavaScript und andere Clients auf einfache und einheitliche Weise mit großen Earth Observation Cloud-Backends zu verbinden.
 
 ::: {.notes}
 OpenEO:
-- is an open source project
-- provides a standardized API (is a wrapper around existing plattforms)
-- this adds a layer of additional complexity
-- for, is best accessed via the R API which obfuscates the "cloud" aspect
+- ist ein Open-Source-Projekt
+- bietet eine standardisierte API (ist ein Wrapper um bestehende Plattformen)
+- dies fügt eine zusätzliche Komplexitätsebene hinzu
+- wird am besten über die R-API verwendet, welche den "Cloud"-Aspekt verschleiert
 :::
 
-## Platform Comparison
+## Plattform-Vergleich
 
-> ...most people prefer GEE mostly because it's the good ol' reliable when it comes to EO data on the cloud. Mature, well-documented and a huge community. 
-> 
-> MPC is the new kid on the block, they provide a more bare-bone version of GEE, with the added advantage of connecting your own computing environment on Azure.
+> ...die meisten Leute bevorzugen GEE hauptsächlich, weil es das gute alte zuverlässige System ist, wenn es um EO-Daten in der Cloud geht. Ausgereift, gut dokumentiert und eine riesige Community.
+>
+> MPC ist der neue Spieler im Feld, sie bieten eine abgespeckte Version von GEE mit dem zusätzlichen Vorteil, die eigene Computing-Umgebung auf Azure zu verbinden.
 
-[source](https://www.reddit.com/r/remotesensing/comments/16cddfa/confused_on_the_big_data_platforms/)
+[Quelle](https://www.reddit.com/r/remotesensing/comments/16cddfa/confused_on_the_big_data_platforms/)
 
-## Carbon Footprint?
+## CO2-Fußabdruck?
 
 [cloudcarbonfootprint.org](https://www.cloudcarbonfootprint.org/)
 
 ::: {.notes}
-- Cloud computing is a major contributor to global warming
-- There are a number of tools to calculate the carbon footprint of your cloud usage
-- It is important to be aware of this
+- Cloud Computing ist ein wichtiger Beitrag zur globalen Erwärmung
+- Es gibt eine Reihe von Tools zur Berechnung des CO2-Fußabdrucks Ihrer Cloud-Nutzung
+- Es ist wichtig, sich dessen bewusst zu sein
 :::
 
 # Google Earth Engine {data-background-image="images/earth-2254769_1280.jpg"}
@@ -153,66 +159,66 @@ OpenEO:
 ![](images/gee.png)
 
 ::: {.notes}
-The code editor only understands JavaScript!
+Der Code-Editor versteht nur JavaScript!
 :::
 
 ## geemap
 
-geemap: A Python package for interactive geospatial analysis and visualization with Google Earth Engine
+geemap: Ein Python-Paket für interaktive Geospatial Analysis und Visualisierung mit Google Earth Engine
 
 [geemap.org](https://geemap.org/)
 
 
 
-# Introduction to Javascript {data-background-image="images/child-2887483_1280.jpg"}
+# Einführung in Javascript {data-background-image="images/child-2887483_1280.jpg"}
 
-<small style="text-shadow: 2px 2px #090909;">(*very* briefly)</small>
+<small style="text-shadow: 2px 2px #090909;">(sehr kurz)</small>
 
-## Getting Started
+## Erste Schritte
 
-1. Open a browser window
-2. Press `F12` to open the developer tools
-3. Go to the `console` tab
-4. Follow along! (Demo time)
+1. Öffnen Sie ein Browserfenster
+2. Drücken Sie `F12`, um die Entwicklertools zu öffnen
+3. Gehen Sie zum `console`-Tab
+4. Folgen Sie mit! (Demo-Zeit)
 
 ::: {.notes}
-Walk through the code in `01-browser-console-demo.md`
+Gehen Sie den Code in `01-browser-console-demo.md` durch
 :::
 
-## Recap
+## Zusammenfassung
 
-## Variable Declaration
+## Variablen-Deklaration
 
 ```javascript
-// Variables are used to store objects, and are defined
-// using the keyword var.
+// Variablen werden verwendet, um Objekte zu speichern und werden
+// mit dem Schlüsselwort var definiert.
 var the_answer = 42;
 
-// String objects start and end with double quotes.
+// String-Objekte beginnen und enden mit Anführungszeichen.
 var my_variable = "I am a string";
 ```
 
 ```javascript
-// there are other ways to declare variables in js
+// es gibt andere Wege, Variablen in js zu deklarieren
 let the_answer = 42;
 const the_answer = 42;
-// we will ignore these
+// diese ignorieren wir
 ```
 
-## Statements
+## Anweisungen
 
 ```javascript
-// Statements *should* end in a semi-colon
+// Anweisungen *sollten* mit einem Semikolon enden
 var test = 'I feel incomplete...'
 
 var test = 'I feel complete...';
 ```
 
-## HTML Script Setup
+## HTML Script Einrichtung
 
-1. Open a **plain text editor**
-2. Create a file with the extension `.html`
-3. Create a `script` tag
+1. Öffnen Sie einen **Texteditor**
+2. Erstellen Sie eine Datei mit der Endung `.html`
+3. Erstellen Sie ein `script`-Tag
 
 ```html
 <script>
@@ -220,96 +226,96 @@ var test = 'I feel complete...';
 </script>
 ```
 
-4. Open this file in the browser
-5. Follow along! (Demo time)
+4. Öffnen Sie diese Datei im Browser
+5. Folgen Sie mit! (Demo-Zeit)
 
 ::: {.notes}
-walk through the script `02-basic-html-script-demo.md`
+Gehen Sie das Script `02-basic-html-script-demo.md` durch
 :::
 
-## Task 1
+## Aufgabe 1
 
-1. Create a variable `myname` with your name
-2. Create a variable `myage` with your age
-3. Calculate your age in days and store it in `myage_days`
-4. Print to the console: `Hi, my name is ... and I am ... days old`
+1. Erstellen Sie eine Variable `myname` mit Ihrem Namen
+2. Erstellen Sie eine Variable `myage` mit Ihrem Alter
+3. Berechnen Sie Ihr Alter in Tagen und speichern Sie es in `myage_days`
+4. Geben Sie auf der Konsole aus: `Hi, my name is ... and I am ... days old`
 
 ::: {.notes}
-solution is in `03-basic-html-script-task.md`
+Lösung ist in `03-basic-html-script-task.md`
 :::
 
-## Demo Continues...
+## Demo geht weiter...
 
 ::: {.notes}
-Walk through the script `04-basic-html-script-demo.md`
+Gehen Sie das Script `04-basic-html-script-demo.md` durch
 :::
 
-## Task 2
+## Aufgabe 2
 
-- Create a function that converts a number of years to a number of days
-- Name the function `years2days`
+- Erstellen Sie eine Funktion, die eine Anzahl von Jahren in eine Anzahl von Tagen umwandelt
+- Nennen Sie die Funktion `years2days`
 
 ```javascript
-// this is the syntax for creating a function:
+// dies ist die Syntax zum Erstellen einer Funktion:
 function say_something(what){
-    // do something
+    // mache etwas
 };
 ```
 
 ::: {.notes}
-solution is in `05-function-years2days-task.md`
+Lösung ist in `05-function-years2days-task.md`
 :::
 
-## Demo Continues...
+## Demo geht weiter...
 
 ::: {.notes}
-solution is in `06-introduction-to-methods-demo.md`
+Lösung ist in `06-introduction-to-methods-demo.md`
 :::
 
-## Recap
+## Zusammenfassung
 
-## Comments
+## Kommentare
 
 ```javascript
-// Line comments start with two forward slashes.
-// Like this line.
+// Zeilenkommentare beginnen mit zwei Schrägstrichen.
+// Wie diese Zeile.
 
 /*
-Multi line comments start with a forward slash
-and a star,
-and end with a star and a forward slash.
+Mehrzeilige Kommentare beginnen mit einem Schrägstrich
+und einem Stern,
+und enden mit einem Stern und einem Schrägstrich.
 */
 ```
 
 ## Arrays
 
 ```javascript
-// Square brackets are used to create a list of items
+// Eckige Klammern werden verwendet, um eine Liste von Elementen zu erstellen
 var my_list = ['eggplant', 'apple', 'wheat'];
 
-// Square brackets are also used for selecting items within
-// a list. 0 refers to the first item in the list.
+// Eckige Klammern werden auch verwendet, um Elemente in
+// einer Liste auszuwählen. 0 bezieht sich auf das erste Element in der Liste.
 my_list[0];
 ```
 
-## Dictionaries
+## Wörterbücher
 
 ```javascript
-// Curly brackets are used to define "dictionaries"
+// Geschweifte Klammern werden verwendet, um "Wörterbücher" zu definieren
 var my_dict = {'food':'bread', 'color':'red', 'number':42};
 
-// Square brackets are used to access items (by key).
+// Eckige Klammern werden verwendet, um auf Elemente zuzugreifen (nach Schlüssel).
 my_dict['color'];
 
-// Or you can use the dot notation to get the same result.
+// Oder Sie können die Punkt-Notation verwenden, um das gleiche Ergebnis zu erhalten.
 my_dict.color;
 ```
 
-## Functions
+## Funktionen
 
 ```javascript
-// Functions can be defined as a way to reuse code and
-// make it easier to read.
+// Funktionen können definiert werden, um Code zu wiederverwenden und
+// ihn leichter lesbar zu machen.
 function years2days(years){
     return years*365
 };
@@ -317,11 +323,11 @@ function years2days(years){
 years2days(34);
 ```
 
-## Functions (Alternative Syntax)
+## Funktionen (Alternative Syntax)
 
 ```javascript
-// Functions can be defined as a way to reuse code and
-// make it easier to read.
+// Funktionen können definiert werden, um Code zu wiederverwenden und
+// ihn leichter lesbar zu machen.
 var say_hello = function(string) {
     return 'Hello ' + string + '!';
 };
@@ -329,77 +335,77 @@ var say_hello = function(string) {
 say_hello('world');
 ```
 
-# Javascript in Websites {data-background-image="images/worker-5736096_1280.jpg"}
+# Javascript in Webseiten {data-background-image="images/worker-5736096_1280.jpg"}
 
-## The Web Trinity
+## Die Web-Trinität
 
-JS is part of a **trinity** that defines most of the web
+JS ist Teil einer **Trinität**, die den größten Teil des Webs definiert
 
 ![](https://www.phon.ucl.ac.uk/courses/spsci/webprog/images/html-css-js.png)
 
-## Let's Explore
+## Lass uns erkunden
 
-Let's take this opportunity to explore and understand this.
+Lassen Sie uns diese Gelegenheit nutzen, um dies zu erkunden und zu verstehen.
 
-(Demo time)
-
-::: {.notes}
-Walk through the script `07-years2days-website.md`
-:::
-
-## Challenge
-
-Create an application that takes your name as an input and returns the name backwards.
-
-Tip: use the methods `split`, `reverse` and `join`.
+(Demo-Zeit)
 
 ::: {.notes}
-Solution is in `08-reverse-name-website.html`
+Gehen Sie das Script `07-years2days-website.md` durch
 :::
 
-# First Steps in Google Earth Engine {data-background-image="images/turtle-2201433_1280.jpg"}
+## Herausforderung
 
-## Instructions
+Erstellen Sie eine Anwendung, die Ihren Namen als Eingabe nimmt und den Namen rückwärts zurückgibt.
 
-1. Go to [code.earthengine.google.com](https://code.earthengine.google.com)
-2. Play around with the Code Editor (create vars, dics, lists...)
-3. Navigate to a location you know (e.g. your hometown) using the search bar
-4. Look for a dataset in the search bar
-5. Create a Repo (*New*→*Repo*) named *DigitalLifeScience Demos*
-6. Create a new File in this Repo named *Demo_1*
+Tipp: Verwenden Sie die Methoden `split`, `reverse` und `join`.
+
+::: {.notes}
+Lösung ist in `08-reverse-name-website.html`
+:::
+
+# Erste Schritte in Google Earth Engine {data-background-image="images/turtle-2201433_1280.jpg"}
+
+## Anweisungen
+
+1. Gehen Sie zu [code.earthengine.google.com](https://code.earthengine.google.com)
+2. Spielen Sie mit dem Code-Editor herum (erstellen Sie Variablen, Wörterbücher, Listen...)
+3. Navigieren Sie zu einem Ort, den Sie kennen (z.B. Ihre Heimatstadt) über die Suchleiste
+4. Suchen Sie nach einem Datensatz in der Suchleiste
+5. Erstellen Sie ein Repo (*New*→*Repo*) namens *DigitalLifeScience Demos*
+6. Erstellen Sie eine neue Datei in diesem Repo namens *Demo_1*
 
 ## Demo 1: Unispectral Data
 
 ::: {.notes}
-do the demo *Demo 1: Unispectral Data*
+Führen Sie die Demo *Demo 1: Unispectral Data* durch
 :::
 
-## Task: Renewable Energy Site Selection
+## Aufgabe: Standortauswahl für Erneuerbare Energien
 
-Identify suitable areas for renewable energy installation:
+Identifizieren Sie geeignete Gebiete für die Installation erneuerbarer Energien:
 
-- Elevation: 500 - 1000 MASL
-- Slope: 3 - 6°
-- Aspect: South facing, between 315° and 45°
+- Höhe: 500 - 1000 m ü. M.
+- Neigung: 3 - 6°
+- Ausrichtung: Südausrichtung, zwischen 315° und 45°
 
-## Demo 2: Multispectral Data
+## Demo 2: Multispektrale Daten
 
-## Electromagnetic Spectrum in Sentinel S2
+## Elektromagnetisches Spektrum in Sentinel S2
 
 ![](images/sentinel_2_channels.png){style="background-color: white;"}
 
 ::: {.notes}
-- VIS: Visible light
-- NIR: Near Infrared
-- SIWIR: Short wave IR
-- TIR: Thermal IR
+- VIS: Sichtbares Licht
+- NIR: Nahinfrarot
+- SIWIR: Kurzwellen-IR
+- TIR: Thermisches IR
 :::
 
-## Create a True Color Image
+## Erstellen Sie ein Echtfarben-Bild
 
-Create a *True Color Image* from the R-/G-/B-Bands
+Erstellen Sie ein *Echtfarben-Bild* aus den R-/G-/B-Bändern
 
-## Demo 3: Multispectral NDVI
+## Demo 3: Multispektral NDVI
 
 ## NDVI: Normalized Difference Vegetation Index
 
@@ -409,28 +415,28 @@ Create a *True Color Image* from the R-/G-/B-Bands
 
 $$\text{NDVI} = \frac{\text{NIR}-\text{Red}}{\text{NIR}+\text{Red}}$$
 
-## Demo 5: Forest Regrowth
+## Demo 5: Waldnachwachstum
 
-# Your Own Project in Google Earth Engine {data-background-image="images/turtle-1850190_1280.jpg"}
+# Ihr eigenes Projekt in Google Earth Engine {data-background-image="images/turtle-1850190_1280.jpg"}
 
-## Afternoon Task
+## Nachmittagsaufgabe
 
-Your task for this afternoon:
+Ihre Aufgabe für heute Nachmittag:
 
-1. Reimplement one of the demonstrated analyses to a different area (or implement your own idea)
-2. Download your results (e.g. as a csv) to your local harddrive
-3. Write a brief description of your analysis and your results (use Jupyter, Rmarkdown or Quarto)
-4. (Optional): Submit via mail to rata@zhaw.ch
+1. Implementieren Sie eine der gezeigten Analysen für ein anderes Gebiet (oder setzen Sie Ihre eigene Idee um)
+2. Laden Sie Ihre Ergebnisse (z.B. als CSV) auf Ihre lokale Festplatte herunter
+3. Schreiben Sie eine kurze Beschreibung Ihrer Analyse und Ihrer Ergebnisse (verwenden Sie Jupyter, Rmarkdown oder Quarto)
+4. (Optional): Senden Sie per E-Mail an rata@zhaw.ch
 
-# Graded Assignment {data-background-image="images/sunflowers-8980921_1280.jpg"}
+# Benotete Aufgabe {data-background-image="images/sunflowers-8980921_1280.jpg"}
 
-## Assignment Details
+## Aufgabendetails
 
-Apply the expertise and skills you acquire within the two remote sensing sessions to design and elaborate your own research project. Make sure to describe the motivation, a suitable analysis approach and applicable remote sensing data.
+Wenden Sie das Fachwissen und die Fähigkeiten an, die Sie in den beiden Remote Sensing Sitzungen erworben haben, um Ihr eigenes Forschungsprojekt zu entwerfen und auszuarbeiten. Beschreiben Sie die Motivation, einen geeigneten Analyseansatz und anwendbare Remote Sensing Daten.
 
-The short research proposal is not to exceed 1 page and can include one figure.
+Der kurze Forschungsantrag soll eine Seite nicht überschreiten und kann eine Abbildung enthalten.
 
-Deadline is one week after the final session of the remote sensing input (2.10.2025)
+Abgabetermin ist eine Woche nach der letzten Remote Sensing Sitzung (2.10.2025)
 
 
 
