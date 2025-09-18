@@ -3,13 +3,14 @@ project:
   output-dir: _site
 
 title: "Life Sciences Datalab"
-subtitle: "Landnutzung mit Drohnenfernerkundung klassifizieren"
+subtitle: "Landnutzung mit ~~Drohnen~~fernerkundung klassifizieren"
 
 format: 
   revealjs:
     css: css/style.css
     embed-resources: false
     theme: dark
+    auto-stretch: false
 
 
 

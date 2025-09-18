@@ -5,7 +5,7 @@ title-slide-attributes:
 ---
 
 
-:::: {.columns}
+:::: {.columns #info}
 ::: {.column width="30%"}
 ![](images/rata.jpeg){#fi-profile}
 :::
@@ -29,10 +29,33 @@ title-slide-attributes:
 
 
 
-# Remote Sensing {data-background-image="images/atmosphere_geo5_2018235_lrg.jpg" data-background-size="contain"}
+# Fernerkundung  {data-background-image="images/atmosphere_geo5_2018235_lrg.jpg" data-background-size="contain"}
+
+(Remote Sensing)
+
+:::{.notes}
+- **Definition:**
+  - Erfassung von Informationen über Objekte/Gebiete ohne direkten physischen Kontakt
+  - Nutzung elektromagnetischer Strahlung (Licht, Infrarot, Radar, etc.)
+- **Unterschied zu In-Situ Messungen:**
+  - Vorteil: Grossflächige, kontinuierliche, wiederholbare Erfassung
+  - Nachteil: Indirekte Messungen, Kalibrierung notwendig
+:::
+
+# {data-background-image="images/atmosphere_geo5_2018235_lrg_2.jpg" data-background-size="contain"}
+
+:::{.notes}
+- **Globale Aerosol-Verteilung am 23. August 2018**: Das Bild zeigt verschiedene Partikel in der Atmosphäre: Rauch (rot), Staub (violett) und Meersalz (blau)
+- **Massive Rauchfahnen**: Große Waldbrände in Nordamerika und saisonale Brandrodung in Afrika erzeugen ausgedehnte schwarze Kohlenstoffwolken
+- **Tropische Wirbelstürme**: Drei Zyklone im Pazifik (inkl. Hurrikan Lane bei Hawaii) sind als große blaue Meersalz-Wirbel sichtbar
+- **Wüstenstaub-Transport**:  Violette Staubwolken werden über große Distanzen von afrikanischen und asiatischen Wüsten transportiert
+- **NASA-Modellierung**: Die Visualisierung stammt aus dem GEOS FP-Modell, das Satellitendaten und Bodenmessungen kombiniert, um
+  Aerosol-Bewegungen zu berechnen
 
 
-## {data-background-image="images/Capella-Space-Rodnykivka-airfield-1.jpg" data-background-size="contain"}
+:::
+
+
 
 
 ## 
@@ -40,10 +63,79 @@ title-slide-attributes:
 
 {{< video https://youtu.be/b4eLTYUcj7k?si=VPyiLeHQQ41hie6I width="100%" height="100%" >}}
 
-## {data-background-image="images/remotesensing-12-01949-g002-540943033.png" data-background-size="contain"}
+:::{.notes}
+- Globale Perspektive: Ganze Erde beobachtbar
+- Zeitreihen: Veränderungen über Jahrzehnte verfolgbar
+- Unzugängliche Gebiete: Arktis, Ozean, Krisengebiete
+- Multispektral: Mehr als das menschliche Auge sieht
+- Schnelle Reaktion: Katastrophen, Waldbrände in Echtzeit
+- Big Data: Millionen von Bildern täglich verfügbar
+:::
 
-Quelle: www.vrogue.co
 
+
+## {data-background-image="images/Capella-Space-Rodnykivka-airfield-1.jpg" data-background-size="contain"}
+
+
+## {data-background-image="images/EMS-Introduction_0.jpeg" data-background-size="contain"}
+
+
+:::{.notes}
+- **Elektromagnetisches Spektrum** - Energie bewegt sich als Wellen unterschiedlicher Wellenlängen; sichtbares Licht ist nur ein
+  kleiner Teil, den das menschliche Auge erkennt
+- **Atmosphärische Durchdringung** - Verschiedene Wellenlängen verhalten sich unterschiedlich: Mikrowellen durchdringen Wolken,
+  während andere absorbiert oder reflektiert werden
+- **Reflexion und Absorption** - Oberflächen haben unterschiedliche Albedo-Werte: Schnee reflektiert 90% des Sonnenlichts, Ozean nur
+  6%
+- **Spektrale Fingerabdrücke** - Jedes Material auf der Erde hat ein einzigartiges Reflexions-/Absorptionsmuster, wodurch Forscher
+  verschiedene Materialien identifizieren können
+
+:::
+
+
+::: footer
+Quelle: [nasa.gov](https://www.earthdata.nasa.gov/learn/earth-observation-data-basics/remote-sensing)
+:::
+
+## {data-background-image="images/active-passive-remote-sensing.png" data-background-size="contain"}
+
+
+:::{.notes}
+- **Passive Instrumente** - Nutzen natürliches Sonnenlicht als Energiequelle und messen reflektierte elektromagnetische Strahlung
+  (Radiometer, Spektrometer)
+- **Active Instrumente** - Senden eigene Energie aus und messen die Rückstreuung (Radar, Altimeter, Scatterometer im Mikrowellenbereich)
+- **Passive Anwendungen** - Messen Oberflächentemperatur, Vegetationseigenschaften und Aerosole, aber können dichte Wolkendecke nicht
+   durchdringen
+- **Active Vorteile** - Können Atmosphäre unter fast allen Bedingungen durchdringen und messen Waldstruktur, Niederschlag und
+  Meerestopographie
+
+
+:::
+
+
+::: footer
+Quelle: [nasa.gov](https://www.earthdata.nasa.gov/learn/earth-observation-data-basics/remote-sensing)
+:::
+
+
+
+
+
+## {data-background-image="images/spatial_resolution.jpg" data-background-size="contain"}
+
+
+:::{.notes}
+- **Vier Auflösungsarten** - Radiometrisch, räumlich, spektral und temporal bestimmen die Nutzbarkeit von Satellitendaten
+- **Radiometrische Auflösung** - Anzahl der Bits pro Pixel (z.B. 8-Bit = 256 Werte von 0-255) bestimmt Unterscheidungsfähigkeit
+- **Höhere Bit-Werte** - Mehr digitale Werte ermöglichen bessere Diskriminierung selbst geringster Energieunterschiede
+- **Anwendungsbeispiel** - Hohe radiometrische Auflösung nötig für Wasserqualitätsmessungen, um subtile Ozeanfarbunterschiede zu
+  erkennen
+
+:::
+
+::: footer
+Quelle: [nasa.gov](https://www.earthdata.nasa.gov/learn/earth-observation-data-basics/remote-sensing)
+:::
 
 
 
@@ -54,7 +146,9 @@ Quelle: www.vrogue.co
 
 ![](images/Datenvolumen_D-SDA.jpg)
 
+::: footer
 Quelle: [dlr.de](https://www.dlr.de/eoc/en/desktopdefault.aspx/tabid-12632/22039_read-51751)
+:::
 
 ::: {.notes}
 - Wir befinden uns mitten in einer Explosion von Earth Observation Daten
@@ -119,7 +213,9 @@ OpenEO:
 >
 > MPC ist der neue Spieler im Feld, sie bieten eine abgespeckte Version von GEE mit dem zusätzlichen Vorteil, die eigene Computing-Umgebung auf Azure zu verbinden.
 
+::: footer
 [Quelle](https://www.reddit.com/r/remotesensing/comments/16cddfa/confused_on_the_big_data_platforms/)
+:::
 
 ## CO2-Fußabdruck?
 
@@ -176,6 +272,8 @@ var the_answer = 42;
 // String-Objekte beginnen und enden mit Anführungszeichen.
 var my_variable = "I am a string";
 ```
+
+## Variablen-Deklaration
 
 ```javascript
 // es gibt andere Wege, Variablen in js zu deklarieren
@@ -277,7 +375,7 @@ var my_list = ['eggplant', 'apple', 'wheat'];
 my_list[0];
 ```
 
-## Wörterbücher
+## Dictionaries
 
 ```javascript
 // Geschweifte Klammern werden verwendet, um "Wörterbücher" zu definieren
@@ -290,7 +388,7 @@ my_dict['color'];
 my_dict.color;
 ```
 
-## Funktionen
+## Functions
 
 ```javascript
 // Funktionen können definiert werden, um Code zu wiederverwenden und
@@ -302,7 +400,7 @@ function years2days(years){
 years2days(34);
 ```
 
-## Funktionen (Alternative Syntax)
+## Functions (Alternative Syntax)
 
 ```javascript
 // Funktionen können definiert werden, um Code zu wiederverwenden und
@@ -332,11 +430,11 @@ Lassen Sie uns diese Gelegenheit nutzen, um dies zu erkunden und zu verstehen.
 Gehen Sie das Script `07-years2days-website.md` durch
 :::
 
-## Herausforderung
+## Challenge
 
 Erstellen Sie eine Anwendung, die Ihren Namen als Eingabe nimmt und den Namen rückwärts zurückgibt.
 
-Tipp: Verwenden Sie die Methoden `split`, `reverse` und `join`.
+Tipp: Verwenden Sie die Methoden `split`, `reverse` und `join`
 
 ::: {.notes}
 Lösung ist in `08-reverse-name-website.html`
@@ -365,7 +463,7 @@ Identifizieren Sie geeignete Gebiete für die Installation erneuerbarer Energien
 
 - Höhe: 500 - 1000 m ü. M.
 - Neigung: 3 - 6°
-- Ausrichtung: Südausrichtung, zwischen 315° und 45°
+- Ausrichtung: Südausrichtung, zwischen 135° und 225°
 
 ## Demo 2: Multispektrale Daten
 
@@ -408,11 +506,11 @@ Ihre Aufgabe für heute Nachmittag:
 3. Schreiben Sie eine kurze Beschreibung Ihrer Analyse und Ihrer Ergebnisse (verwenden Sie Jupyter, Rmarkdown oder Quarto)
 4. (Optional): Senden Sie per E-Mail an rata@zhaw.ch
 
-# Benotete Aufgabe {data-background-image="images/sunflowers-8980921_1280.jpg"}
+# Leistungsnachweis {data-background-image="images/sunflowers-8980921_1280.jpg"}
 
 ## Aufgabendetails
 
-Wenden Sie das Fachwissen und die Fähigkeiten an, die Sie in den beiden Remote Sensing Sitzungen erworben haben, um Ihr eigenes Forschungsprojekt zu entwerfen und auszuarbeiten. Beschreiben Sie die Motivation, einen geeigneten Analyseansatz und anwendbare Remote Sensing Daten.
+Wenden Sie ihr gelerntes Wissen aus beiden Einheiten an, um Ihr eigenes Forschungsprojekt zu entwerfen und auszuarbeiten. Beschreiben Sie die Motivation, einen geeigneten Analyseansatz und anwendbare Remote Sensing Daten.
 
 Der kurze Forschungsantrag soll eine Seite nicht überschreiten und kann eine Abbildung enthalten.
 
