@@ -1,17 +1,38 @@
 [
   {
-    "objectID": "index.html#section-2",
-    "href": "index.html#section-2",
+    "objectID": "index.html#section-1",
+    "href": "index.html#section-1",
     "title": "Life Sciences Datalab",
     "section": "",
-    "text": "Quelle: www.vrogue.co"
+    "text": "Globale Perspektive: Ganze Erde beobachtbar\nZeitreihen: Veränderungen über Jahrzehnte verfolgbar\nUnzugängliche Gebiete: Arktis, Ozean, Krisengebiete\nMultispektral: Mehr als das menschliche Auge sieht\nSchnelle Reaktion: Katastrophen, Waldbrände in Echtzeit\nBig Data: Millionen von Bildern täglich verfügbar"
+  },
+  {
+    "objectID": "index.html#section-3",
+    "href": "index.html#section-3",
+    "title": "Life Sciences Datalab",
+    "section": "",
+    "text": "Elektromagnetisches Spektrum - Energie bewegt sich als Wellen unterschiedlicher Wellenlängen; sichtbares Licht ist nur ein kleiner Teil, den das menschliche Auge erkennt\nAtmosphärische Durchdringung - Verschiedene Wellenlängen verhalten sich unterschiedlich: Mikrowellen durchdringen Wolken, während andere absorbiert oder reflektiert werden\nReflexion und Absorption - Oberflächen haben unterschiedliche Albedo-Werte: Schnee reflektiert 90% des Sonnenlichts, Ozean nur 6%\nSpektrale Fingerabdrücke - Jedes Material auf der Erde hat ein einzigartiges Reflexions-/Absorptionsmuster, wodurch Forscher verschiedene Materialien identifizieren können\n\n\n\nQuelle: nasa.gov"
+  },
+  {
+    "objectID": "index.html#section-4",
+    "href": "index.html#section-4",
+    "title": "Life Sciences Datalab",
+    "section": "",
+    "text": "Passive Instrumente - Nutzen natürliches Sonnenlicht als Energiequelle und messen reflektierte elektromagnetische Strahlung (Radiometer, Spektrometer)\nActive Instrumente - Senden eigene Energie aus und messen die Rückstreuung (Radar, Altimeter, Scatterometer im Mikrowellenbereich)\nPassive Anwendungen - Messen Oberflächentemperatur, Vegetationseigenschaften und Aerosole, aber können dichte Wolkendecke nicht durchdringen\nActive Vorteile - Können Atmosphäre unter fast allen Bedingungen durchdringen und messen Waldstruktur, Niederschlag und Meerestopographie\n\n\n\nQuelle: nasa.gov"
+  },
+  {
+    "objectID": "index.html#section-5",
+    "href": "index.html#section-5",
+    "title": "Life Sciences Datalab",
+    "section": "",
+    "text": "Vier Auflösungsarten - Radiometrisch, räumlich, spektral und temporal bestimmen die Nutzbarkeit von Satellitendaten\nRadiometrische Auflösung - Anzahl der Bits pro Pixel (z.B. 8-Bit = 256 Werte von 0-255) bestimmt Unterscheidungsfähigkeit\nHöhere Bit-Werte - Mehr digitale Werte ermöglichen bessere Diskriminierung selbst geringster Energieunterschiede\nAnwendungsbeispiel - Hohe radiometrische Auflösung nötig für Wasserqualitätsmessungen, um subtile Ozeanfarbunterschiede zu erkennen\n\n\n\nQuelle: nasa.gov"
   },
   {
     "objectID": "index.html#datenexplosion",
     "href": "index.html#datenexplosion",
     "title": "Life Sciences Datalab",
     "section": "Datenexplosion",
-    "text": "Datenexplosion\n\nQuelle: dlr.de\n\n\nWir befinden uns mitten in einer Explosion von Earth Observation Daten\nDas Datenwachstum übertrifft das Wachstum von Desktop-Festplatten UND Internet-Bandbreitenkapazität"
+    "text": "Datenexplosion\n\n\nQuelle: dlr.de\n\n\n\nWir befinden uns mitten in einer Explosion von Earth Observation Daten\nDas Datenwachstum übertrifft das Wachstum von Desktop-Festplatten UND Internet-Bandbreitenkapazität"
   },
   {
     "objectID": "index.html#paradigmenwechsel",
@@ -46,7 +67,7 @@
     "href": "index.html#plattform-vergleich",
     "title": "Life Sciences Datalab",
     "section": "Plattform-Vergleich",
-    "text": "Plattform-Vergleich\n\n…die meisten Leute bevorzugen GEE hauptsächlich, weil es das gute alte zuverlässige System ist, wenn es um EO-Daten in der Cloud geht. Ausgereift, gut dokumentiert und eine riesige Community.\nMPC ist der neue Spieler im Feld, sie bieten eine abgespeckte Version von GEE mit dem zusätzlichen Vorteil, die eigene Computing-Umgebung auf Azure zu verbinden.\n\nQuelle"
+    "text": "Plattform-Vergleich\n\n…die meisten Leute bevorzugen GEE hauptsächlich, weil es das gute alte zuverlässige System ist, wenn es um EO-Daten in der Cloud geht. Ausgereift, gut dokumentiert und eine riesige Community.\nMPC ist der neue Spieler im Feld, sie bieten eine abgespeckte Version von GEE mit dem zusätzlichen Vorteil, die eigene Computing-Umgebung auf Azure zu verbinden.\n\n\nQuelle"
   },
   {
     "objectID": "index.html#co2-fußabdruck",
@@ -56,8 +77,8 @@
     "text": "CO2-Fußabdruck?\ncloudcarbonfootprint.org\n\n\nCloud Computing ist ein wichtiger Beitrag zur globalen Erwärmung\nEs gibt eine Reihe von Tools zur Berechnung des CO2-Fußabdrucks Ihrer Cloud-Nutzung\nEs ist wichtig, sich dessen bewusst zu sein"
   },
   {
-    "objectID": "index.html#section-3",
-    "href": "index.html#section-3",
+    "objectID": "index.html#section-6",
+    "href": "index.html#section-6",
     "title": "Life Sciences Datalab",
     "section": "",
     "text": "Der Code-Editor versteht nur JavaScript!"
@@ -88,7 +109,14 @@
     "href": "index.html#variablen-deklaration",
     "title": "Life Sciences Datalab",
     "section": "Variablen-Deklaration",
-    "text": "Variablen-Deklaration\n// Variablen werden verwendet, um Objekte zu speichern und werden\n// mit dem Schlüsselwort var definiert.\nvar the_answer = 42;\n\n// String-Objekte beginnen und enden mit Anführungszeichen.\nvar my_variable = \"I am a string\";\n// es gibt andere Wege, Variablen in js zu deklarieren\nlet the_answer = 42;\nconst the_answer = 42;\n// diese ignorieren wir"
+    "text": "Variablen-Deklaration\n// Variablen werden verwendet, um Objekte zu speichern und werden\n// mit dem Schlüsselwort var definiert.\nvar the_answer = 42;\n\n// String-Objekte beginnen und enden mit Anführungszeichen.\nvar my_variable = \"I am a string\";"
+  },
+  {
+    "objectID": "index.html#variablen-deklaration-1",
+    "href": "index.html#variablen-deklaration-1",
+    "title": "Life Sciences Datalab",
+    "section": "Variablen-Deklaration",
+    "text": "Variablen-Deklaration\n// es gibt andere Wege, Variablen in js zu deklarieren\nlet the_answer = 42;\nconst the_answer = 42;\n// diese ignorieren wir"
   },
   {
     "objectID": "index.html#anweisungen",
@@ -154,25 +182,25 @@
     "text": "Arrays\n// Eckige Klammern werden verwendet, um eine Liste von Elementen zu erstellen\nvar my_list = ['eggplant', 'apple', 'wheat'];\n\n// Eckige Klammern werden auch verwendet, um Elemente in\n// einer Liste auszuwählen. 0 bezieht sich auf das erste Element in der Liste.\nmy_list[0];"
   },
   {
-    "objectID": "index.html#wörterbücher",
-    "href": "index.html#wörterbücher",
+    "objectID": "index.html#dictionaries",
+    "href": "index.html#dictionaries",
     "title": "Life Sciences Datalab",
-    "section": "Wörterbücher",
-    "text": "Wörterbücher\n// Geschweifte Klammern werden verwendet, um \"Wörterbücher\" zu definieren\nvar my_dict = {'food':'bread', 'color':'red', 'number':42};\n\n// Eckige Klammern werden verwendet, um auf Elemente zuzugreifen (nach Schlüssel).\nmy_dict['color'];\n\n// Oder Sie können die Punkt-Notation verwenden, um das gleiche Ergebnis zu erhalten.\nmy_dict.color;"
+    "section": "Dictionaries",
+    "text": "Dictionaries\n// Geschweifte Klammern werden verwendet, um \"Wörterbücher\" zu definieren\nvar my_dict = {'food':'bread', 'color':'red', 'number':42};\n\n// Eckige Klammern werden verwendet, um auf Elemente zuzugreifen (nach Schlüssel).\nmy_dict['color'];\n\n// Oder Sie können die Punkt-Notation verwenden, um das gleiche Ergebnis zu erhalten.\nmy_dict.color;"
   },
   {
-    "objectID": "index.html#funktionen",
-    "href": "index.html#funktionen",
+    "objectID": "index.html#functions",
+    "href": "index.html#functions",
     "title": "Life Sciences Datalab",
-    "section": "Funktionen",
-    "text": "Funktionen\n// Funktionen können definiert werden, um Code zu wiederverwenden und\n// ihn leichter lesbar zu machen.\nfunction years2days(years){\n    return years*365\n};\n\nyears2days(34);"
+    "section": "Functions",
+    "text": "Functions\n// Funktionen können definiert werden, um Code zu wiederverwenden und\n// ihn leichter lesbar zu machen.\nfunction years2days(years){\n    return years*365\n};\n\nyears2days(34);"
   },
   {
-    "objectID": "index.html#funktionen-alternative-syntax",
-    "href": "index.html#funktionen-alternative-syntax",
+    "objectID": "index.html#functions-alternative-syntax",
+    "href": "index.html#functions-alternative-syntax",
     "title": "Life Sciences Datalab",
-    "section": "Funktionen (Alternative Syntax)",
-    "text": "Funktionen (Alternative Syntax)\n// Funktionen können definiert werden, um Code zu wiederverwenden und\n// ihn leichter lesbar zu machen.\nvar say_hello = function(string) {\n    return 'Hello ' + string + '!';\n};\n\nsay_hello('world');"
+    "section": "Functions (Alternative Syntax)",
+    "text": "Functions (Alternative Syntax)\n// Funktionen können definiert werden, um Code zu wiederverwenden und\n// ihn leichter lesbar zu machen.\nvar say_hello = function(string) {\n    return 'Hello ' + string + '!';\n};\n\nsay_hello('world');"
   },
   {
     "objectID": "index.html#die-web-trinität",
@@ -189,11 +217,11 @@
     "text": "Lass uns erkunden\nLassen Sie uns diese Gelegenheit nutzen, um dies zu erkunden und zu verstehen.\n(Demo-Zeit)\n\nGehen Sie das Script 07-years2days-website.md durch"
   },
   {
-    "objectID": "index.html#herausforderung",
-    "href": "index.html#herausforderung",
+    "objectID": "index.html#challenge",
+    "href": "index.html#challenge",
     "title": "Life Sciences Datalab",
-    "section": "Herausforderung",
-    "text": "Herausforderung\nErstellen Sie eine Anwendung, die Ihren Namen als Eingabe nimmt und den Namen rückwärts zurückgibt.\nTipp: Verwenden Sie die Methoden split, reverse und join.\n\nLösung ist in 08-reverse-name-website.html"
+    "section": "Challenge",
+    "text": "Challenge\nErstellen Sie eine Anwendung, die Ihren Namen als Eingabe nimmt und den Namen rückwärts zurückgibt.\nTipp: Verwenden Sie die Methoden split, reverse und join\n\nLösung ist in 08-reverse-name-website.html"
   },
   {
     "objectID": "index.html#anweisungen-1",
@@ -214,7 +242,7 @@
     "href": "index.html#aufgabe-standortauswahl-für-erneuerbare-energien",
     "title": "Life Sciences Datalab",
     "section": "Aufgabe: Standortauswahl für Erneuerbare Energien",
-    "text": "Aufgabe: Standortauswahl für Erneuerbare Energien\nIdentifizieren Sie geeignete Gebiete für die Installation erneuerbarer Energien:\n\nHöhe: 500 - 1000 m ü. M.\nNeigung: 3 - 6°\nAusrichtung: Südausrichtung, zwischen 315° und 45°"
+    "text": "Aufgabe: Standortauswahl für Erneuerbare Energien\nIdentifizieren Sie geeignete Gebiete für die Installation erneuerbarer Energien:\n\nHöhe: 500 - 1000 m ü. M.\nNeigung: 3 - 6°\nAusrichtung: Südausrichtung, zwischen 135° und 225°"
   },
   {
     "objectID": "index.html#demo-2-multispektrale-daten",
@@ -277,7 +305,7 @@
     "href": "index.html#aufgabendetails",
     "title": "Life Sciences Datalab",
     "section": "Aufgabendetails",
-    "text": "Aufgabendetails\nWenden Sie das Fachwissen und die Fähigkeiten an, die Sie in den beiden Remote Sensing Sitzungen erworben haben, um Ihr eigenes Forschungsprojekt zu entwerfen und auszuarbeiten. Beschreiben Sie die Motivation, einen geeigneten Analyseansatz und anwendbare Remote Sensing Daten.\nDer kurze Forschungsantrag soll eine Seite nicht überschreiten und kann eine Abbildung enthalten.\nAbgabetermin ist eine Woche nach der letzten Remote Sensing Sitzung (2.10.2025)"
+    "text": "Aufgabendetails\nWenden Sie ihr gelerntes Wissen aus beiden Einheiten an, um Ihr eigenes Forschungsprojekt zu entwerfen und auszuarbeiten. Beschreiben Sie die Motivation, einen geeigneten Analyseansatz und anwendbare Remote Sensing Daten.\nDer kurze Forschungsantrag soll eine Seite nicht überschreiten und kann eine Abbildung enthalten.\nAbgabetermin ist eine Woche nach der letzten Remote Sensing Sitzung (2.10.2025)"
   },
   {
     "objectID": "Readme.html#notizen-2023",

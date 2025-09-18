@@ -1,5 +1,12 @@
 #fi-profile{
   border-radius: 50%;
+  width: 250px;
+}
+
+#info{
+  display: flex;
+  align-items: center;
+  min-height: 70vh;
 }
 
 .x-large{
@@ -24,6 +31,19 @@ h1{
   padding: 0;
 }
 
+
+#img-legend{
+  width: 100%
+  min-height: 100vh;
+  display: flex;
+  align-content: end;
+  justify-content: end;
+  
+}
+
+#img-legend > p > img{
+  width: 200px;
+}
 
 
 
