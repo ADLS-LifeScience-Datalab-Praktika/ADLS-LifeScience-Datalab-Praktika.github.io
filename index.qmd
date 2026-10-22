@@ -147,6 +147,31 @@ Spatiotemporal ML
 
 </div>
 
+## Zeckenprojekt
+
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem;">
+
+<div>
+<iframe src="https://www.youtube.com/embed/WAh6Rh8Qx8g" width="100%" height="350px" style="border: none;" allowfullscreen></iframe>
+</div>
+
+<div>
+<iframe src="https://map.geo.admin.ch/#/map?lang=de&center=2660275.73,1197076.95&z=1.661&topic=ech&layers=ch.bag.zeckenstichmodell&bgLayer=ch.swisstopo.pixelkarte-farbe" width="100%" height="350px" style="border: none;"></iframe>
+</div>
+
+</div>
+
+## Ausbreitungsmodellierung
+
+[![](images/ausbreitungsmodellierung.png){width="100%"}](https://gis.zhaw.ch/wildlife-connectivity){target="_blank"}
+
+## Was können Sie nach heute?
+
+- Satelliten- und Drohnendaten in der Cloud analysieren
+- Vegetationsindizes und Landnutzungsklassifikationen berechnen
+- Ergebnisse für eigene Forschungsfragen anwenden
+- Unsere Forschungsgruppe sowie mögliche Themenfelder nach Abschluss des Studiums kennen
+
 
 
 # Warum in der Cloud? {data-background-image="images/small-fire-butterfly-8224901_1280.jpg"}
@@ -237,6 +262,15 @@ OpenEO:
 :::
 
 # Google Earth Engine {data-background-image="images/earth-2254769_1280.jpg"}
+
+## Bevor wir anfangen...
+
+:::{.callout-note}
+
+## Eingerichtet?
+
+Habt ihr euch bei GEE Registrieren können?
+:::
 
 ## {data-background-color="gray"}
 
