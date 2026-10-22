@@ -127,3 +127,26 @@ ul.no-bullets {
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
+.reveal blockquote {
+    border: none;
+    box-shadow: none;
+    background: none;
+    font-style: italic;
+    font-size: 1.1em;
+    position: relative;
+    padding: 0.5em 1em 0.5em 2.5em;
+    color: #ccc;
+    width: 100%;
+}
+
+.reveal blockquote::before {
+    content: '\201C';
+    font-size: 4em;
+    color: #888;
+    position: absolute;
+    left: 0;
+    top: -0.1em;
+    line-height: 1;
+    font-family: Georgia, serif;
+}
+
