@@ -593,13 +593,49 @@ Erstellen Sie ein *Echtfarben-Bild* aus den R-/G-/B-Bändern
 
 ## Demo 3: Multispektral NDVI
 
+Ziel: Berechnen Sie den **NDVI** für ein Gebiet Ihrer Wahl und visualisieren Sie die Vegetationsverteilung.
+
+::: {.notes}
+Führen Sie die Demo *Demo 3: Multispektral NDVI* durch
+:::
+
 ## NDVI: Normalized Difference Vegetation Index
 
 ![](images/ndvi_resized-2048x1061.jpg)
 
+## Warum NIR und Red?
+
+![](images/Reflexionskurven.jpg)
+
+::: {.notes}
+- Vegetation absorbiert rotes Licht stark (Photosynthese) → niedrige Red-Reflexion
+- Vegetation reflektiert NIR stark (Zellstruktur der Blätter) → hohe NIR-Reflexion
+- Boden: ähnliche Reflexion in Red und NIR → NDVI nahe 0
+- Wasser: absorbiert NIR fast vollständig → negativer NDVI
+- Dieses Kontrastverhältnis macht NDVI so aussagekräftig
+:::
+
 ## NDVI Formula
 
 $$\text{NDVI} = \frac{\text{NIR}-\text{Red}}{\text{NIR}+\text{Red}}$$
+
+In Sentinel-2: **NIR = Band 8**, **Red = Band 4**
+
+## NDVI Interpretation
+
+| NDVI Wert | Bedeutung |
+|-----------|-----------|
+| < 0       | Wasser, Schnee, Wolken |
+| 0.0 – 0.2 | Nackter Boden, urbane Flächen |
+| 0.2 – 0.4 | Spärliche Vegetation, Grasland |
+| 0.4 – 0.6 | Moderate Vegetation, Landwirtschaft |
+| > 0.6     | Dichter Wald, üppige Vegetation |
+
+::: {.notes}
+- NDVI reicht von -1 bis +1
+- Gesunde Pflanzen absorbieren rotes Licht (Photosynthese) und reflektieren NIR stark
+- Deshalb: hoher NIR, niedriger Red → hoher NDVI
+:::
 
 
 ## Demo 5: Waldnachwachstum
@@ -608,12 +644,13 @@ $$\text{NDVI} = \frac{\text{NIR}-\text{Red}}{\text{NIR}+\text{Red}}$$
 
 ## Nachmittagsaufgabe
 
-Ihre Aufgabe für heute Nachmittag:
+Deine Aufgabe für heute Nachmittag:
 
-1. Implementieren Sie eine der gezeigten Analysen für ein anderes Gebiet (oder setzen Sie Ihre eigene Idee um)
-2. Laden Sie Ihre Ergebnisse (z.B. als CSV) auf Ihre lokale Festplatte herunter
-3. Schreiben Sie eine kurze Beschreibung Ihrer Analyse und Ihrer Ergebnisse (verwenden Sie Jupyter, Rmarkdown oder Quarto)
-4. (Optional): Senden Sie per E-Mail an rata@zhaw.ch
+1. Wähle ein Gewässer deiner Wahl (z.B. Grimselsee, Lago di Lugano, Zürichsee) und berechne den **NDWI** über mehrere Jahre
+2. Vergleiche ein Trockenjahr (z.B. 2018 oder 2022) mit einem Normaljahr und visualisiere die Unterschiede
+3. Lade deine Ergebnisse (z.B. als CSV oder GeoTIFF) auf deine lokale Festplatte herunter
+4. Schreibe eine kurze Beschreibung deiner Analyse und deiner Ergebnisse (verwende Jupyter, Rmarkdown oder Quarto)
+5. (Optional): Sende per E-Mail an rata@zhaw.ch
 
 # Leistungsnachweis {data-background-image="images/sunflowers-8980921_1280.jpg"}
 
