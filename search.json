@@ -343,25 +343,11 @@
     "text": "NDVI Interpretation\n\n\n\nNDVI Wert\nBedeutung\n\n\n\n\n&lt; 0\nWasser, Schnee, Wolken\n\n\n0.0 – 0.2\nNackter Boden, urbane Flächen\n\n\n0.2 – 0.4\nSpärliche Vegetation, Grasland\n\n\n0.4 – 0.6\nModerate Vegetation, Landwirtschaft\n\n\n&gt; 0.6\nDichter Wald, üppige Vegetation\n\n\n\n\n\nNDVI reicht von -1 bis +1\nGesunde Pflanzen absorbieren rotes Licht (Photosynthese) und reflektieren NIR stark\nDeshalb: hoher NIR, niedriger Red → hoher NDVI"
   },
   {
-    "objectID": "index.html#demo-5-waldnachwachstum",
-    "href": "index.html#demo-5-waldnachwachstum",
-    "title": "Life Sciences Datalab",
-    "section": "Demo 5: Waldnachwachstum",
-    "text": "Demo 5: Waldnachwachstum"
-  },
-  {
     "objectID": "index.html#nachmittagsaufgabe",
     "href": "index.html#nachmittagsaufgabe",
     "title": "Life Sciences Datalab",
     "section": "Nachmittagsaufgabe",
     "text": "Nachmittagsaufgabe\nDeine Aufgabe für heute Nachmittag:\n\nWähle ein Gewässer deiner Wahl (z.B. Grimselsee, Lago di Lugano, Zürichsee) und berechne den NDWI über mehrere Jahre\nVergleiche ein Trockenjahr (z.B. 2018 oder 2022) mit einem Normaljahr und visualisiere die Unterschiede\nLade deine Ergebnisse (z.B. als CSV oder GeoTIFF) auf deine lokale Festplatte herunter\nOptional: Schreibe eine kurze Beschreibung deiner Analyse und deiner Ergebnisse (verwende Jupyter, Rmarkdown oder Quarto)"
-  },
-  {
-    "objectID": "index.html#aufgabendetailsvisibilityhidden",
-    "href": "index.html#aufgabendetailsvisibilityhidden",
-    "title": "Life Sciences Datalab",
-    "section": "Aufgabendetails{visibility=“hidden”}}",
-    "text": "Aufgabendetails{visibility=“hidden”}}\nWenden Sie ihr gelerntes Wissen aus beiden Einheiten an, um Ihr eigenes Forschungsprojekt zu entwerfen und auszuarbeiten. Beschreiben Sie die Motivation, einen geeigneten Analyseansatz und anwendbare Remote Sensing Daten.\nDer kurze Forschungsantrag soll eine Seite nicht überschreiten und kann eine Abbildung enthalten.\nAbgabetermin ist eine Woche nach der letzten Remote Sensing Sitzung (2.10.2025)"
   },
   {
     "objectID": "Readme.html#notizen-2023",
