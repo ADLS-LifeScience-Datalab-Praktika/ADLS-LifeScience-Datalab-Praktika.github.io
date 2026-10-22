@@ -354,14 +354,14 @@
     "href": "index.html#nachmittagsaufgabe",
     "title": "Life Sciences Datalab",
     "section": "Nachmittagsaufgabe",
-    "text": "Nachmittagsaufgabe\nDeine Aufgabe für heute Nachmittag:\n\nWähle ein Gewässer deiner Wahl (z.B. Grimselsee, Lago di Lugano, Zürichsee) und berechne den NDWI über mehrere Jahre\nVergleiche ein Trockenjahr (z.B. 2018 oder 2022) mit einem Normaljahr und visualisiere die Unterschiede\nLade deine Ergebnisse (z.B. als CSV oder GeoTIFF) auf deine lokale Festplatte herunter\nSchreibe eine kurze Beschreibung deiner Analyse und deiner Ergebnisse (verwende Jupyter, Rmarkdown oder Quarto)\n(Optional): Sende per E-Mail an rata@zhaw.ch"
+    "text": "Nachmittagsaufgabe\nDeine Aufgabe für heute Nachmittag:\n\nWähle ein Gewässer deiner Wahl (z.B. Grimselsee, Lago di Lugano, Zürichsee) und berechne den NDWI über mehrere Jahre\nVergleiche ein Trockenjahr (z.B. 2018 oder 2022) mit einem Normaljahr und visualisiere die Unterschiede\nLade deine Ergebnisse (z.B. als CSV oder GeoTIFF) auf deine lokale Festplatte herunter\nOptional: Schreibe eine kurze Beschreibung deiner Analyse und deiner Ergebnisse (verwende Jupyter, Rmarkdown oder Quarto)"
   },
   {
-    "objectID": "index.html#aufgabendetails",
-    "href": "index.html#aufgabendetails",
+    "objectID": "index.html#aufgabendetailsvisibilityhidden",
+    "href": "index.html#aufgabendetailsvisibilityhidden",
     "title": "Life Sciences Datalab",
-    "section": "Aufgabendetails",
-    "text": "Aufgabendetails\nWenden Sie ihr gelerntes Wissen aus beiden Einheiten an, um Ihr eigenes Forschungsprojekt zu entwerfen und auszuarbeiten. Beschreiben Sie die Motivation, einen geeigneten Analyseansatz und anwendbare Remote Sensing Daten.\nDer kurze Forschungsantrag soll eine Seite nicht überschreiten und kann eine Abbildung enthalten.\nAbgabetermin ist eine Woche nach der letzten Remote Sensing Sitzung (2.10.2025)"
+    "section": "Aufgabendetails{visibility=“hidden”}}",
+    "text": "Aufgabendetails{visibility=“hidden”}}\nWenden Sie ihr gelerntes Wissen aus beiden Einheiten an, um Ihr eigenes Forschungsprojekt zu entwerfen und auszuarbeiten. Beschreiben Sie die Motivation, einen geeigneten Analyseansatz und anwendbare Remote Sensing Daten.\nDer kurze Forschungsantrag soll eine Seite nicht überschreiten und kann eine Abbildung enthalten.\nAbgabetermin ist eine Woche nach der letzten Remote Sensing Sitzung (2.10.2025)"
   },
   {
     "objectID": "Readme.html#notizen-2023",
