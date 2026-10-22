@@ -5,6 +5,9 @@ title-slide-attributes:
 ---
 
 
+
+# Einführung
+
 :::: {.columns #info}
 ::: {.column width="30%"}
 ![](images/rata.jpeg){#fi-profile}
@@ -27,116 +30,122 @@ title-slide-attributes:
 :::
 ::::
 
+## Program
 
+::: {.list-table}
+- - 
+  - 
 
-# Fernerkundung  {data-background-image="images/atmosphere_geo5_2018235_lrg.jpg" data-background-size="contain"}
+- - `08:00 - 08:35`
+  - Einführung und theoretischer Input
 
-(Remote Sensing)
+- - `08:50 - 09:35`
+  - Hands-on Einführung in JavaScript
 
-:::{.notes}
-- **Definition:**
-  - Erfassung von Informationen über Objekte/Gebiete ohne direkten physischen Kontakt
-  - Nutzung elektromagnetischer Strahlung (Licht, Infrarot, Radar, etc.)
-- **Unterschied zu In-Situ Messungen:**
-  - Vorteil: Grossflächige, kontinuierliche, wiederholbare Erfassung
-  - Nachteil: Indirekte Messungen, Kalibrierung notwendig
-:::
+- - `09:50 - 10:35`
+  - GEE Demos (Hands-on)
 
-# {data-background-image="images/atmosphere_geo5_2018235_lrg_2.jpg" data-background-size="contain"}
+- - `10:50 - 11:35`
+  - *s.o.*
 
-:::{.notes}
-- **Globale Aerosol-Verteilung am 23. August 2018**: Das Bild zeigt verschiedene Partikel in der Atmosphäre: Rauch (rot), Staub (violett) und Meersalz (blau)
-- **Massive Rauchfahnen**: Große Waldbrände in Nordamerika und saisonale Brandrodung in Afrika erzeugen ausgedehnte schwarze Kohlenstoffwolken
-- **Tropische Wirbelstürme**: Drei Zyklone im Pazifik (inkl. Hurrikan Lane bei Hawaii) sind als große blaue Meersalz-Wirbel sichtbar
-- **Wüstenstaub-Transport**:  Violette Staubwolken werden über große Distanzen von afrikanischen und asiatischen Wüsten transportiert
-- **NASA-Modellierung**: Die Visualisierung stammt aus dem GEOS FP-Modell, das Satellitendaten und Bodenmessungen kombiniert, um
-  Aerosol-Bewegungen zu berechnen
+- - Lunch Break
+  - 
 
+- - `13:00 - 13:35`
+  - Individuelle GEE Projekte
 
-:::
+- - `13:50 - 14:35`
+  - *s.o.*
 
+- - `14:50 - 15:15`
+  - *s.o.*
 
-
-
-## 
-
-
-{{< video https://youtu.be/b4eLTYUcj7k?si=VPyiLeHQQ41hie6I width="100%" height="100%" >}}
-
-:::{.notes}
-- Globale Perspektive: Ganze Erde beobachtbar
-- Zeitreihen: Veränderungen über Jahrzehnte verfolgbar
-- Unzugängliche Gebiete: Arktis, Ozean, Krisengebiete
-- Multispektral: Mehr als das menschliche Auge sieht
-- Schnelle Reaktion: Katastrophen, Waldbrände in Echtzeit
-- Big Data: Millionen von Bildern täglich verfügbar
-:::
-
-
-
-## {data-background-image="images/Capella-Space-Rodnykivka-airfield-1.jpg" data-background-size="contain"}
-
-
-## {data-background-image="images/EMS-Introduction_0.jpeg" data-background-size="contain"}
-
-
-:::{.notes}
-- **Elektromagnetisches Spektrum** - Energie bewegt sich als Wellen unterschiedlicher Wellenlängen; sichtbares Licht ist nur ein
-  kleiner Teil, den das menschliche Auge erkennt
-- **Atmosphärische Durchdringung** - Verschiedene Wellenlängen verhalten sich unterschiedlich: Mikrowellen durchdringen Wolken,
-  während andere absorbiert oder reflektiert werden
-- **Reflexion und Absorption** - Oberflächen haben unterschiedliche Albedo-Werte: Schnee reflektiert 90% des Sonnenlichts, Ozean nur
-  6%
-- **Spektrale Fingerabdrücke** - Jedes Material auf der Erde hat ein einzigartiges Reflexions-/Absorptionsmuster, wodurch Forscher
-  verschiedene Materialien identifizieren können
+- - `15:30 - 16:35`
+  - Exkursion 
 
 :::
 
+## FG Geoinformatik {.smaller}
 
-::: footer
-Quelle: [nasa.gov](https://www.earthdata.nasa.gov/learn/earth-observation-data-basics/remote-sensing)
+<div style="display: grid; grid-template-columns: repeat(5, 1fr); text-align: center; gap: 1rem; align-items: start;">
+
+<div>
+![](images/laup.webp){style="border-radius: 50%; width: object-fit: cover;"}
+
+Patrick Laube
+</div>
+
+<div>
+![](images/ocpa.webp){style="border-radius: 50%; object-fit: cover;"}
+
+Pascal Ochsner
+</div>
+
+<div>
+![](images/murj.webp){style="border-radius: 50%; object-fit: cover;"}
+
+Johann Junghardt
+</div>
+
+<div>
+![](images/rahn.webp){style="border-radius: 50%; object-fit: cover;"}
+
+Hanno Rahn
+</div>
+
+<div>
+![](images/terz.webp){style="border-radius: 50%; object-fit: cover;"}
+
+Evelyn Terzer
+</div>
+
+</div>
+
+## Themenfelder {.smaller}
+
+:::: {.r-hstack}
+
+::: {.r-vstack}
+![](images/themenfeld1-Geodatenerhebung mit Drohnen.webp){width="100%" style="border-radius: 50%; aspect-ratio: 1; object-fit: cover;"}
+
+Drones
 :::
 
-## {data-background-image="images/active-passive-remote-sensing.png" data-background-size="contain"}
+::: {.r-vstack}
+![](images/themenfeld2-Ökologisches Monitoring.webp){width="100%" style="border-radius: 50%; aspect-ratio: 1; object-fit: cover;"}
 
-
-:::{.notes}
-- **Passive Instrumente** - Nutzen natürliches Sonnenlicht als Energiequelle und messen reflektierte elektromagnetische Strahlung
-  (Radiometer, Spektrometer)
-- **Active Instrumente** - Senden eigene Energie aus und messen die Rückstreuung (Radar, Altimeter, Scatterometer im Mikrowellenbereich)
-- **Passive Anwendungen** - Messen Oberflächentemperatur, Vegetationseigenschaften und Aerosole, aber können dichte Wolkendecke nicht
-   durchdringen
-- **Active Vorteile** - Können Atmosphäre unter fast allen Bedingungen durchdringen und messen Waldstruktur, Niederschlag und
-  Meerestopographie
-
-
+Ecological Monitoring
 :::
 
+::: {.r-vstack}
+![](images/themenfeld3-Multikriterien-Analyse.webp){width="100%" style="border-radius: 50%; aspect-ratio: 1; object-fit: cover;"}
 
-::: footer
-Quelle: [nasa.gov](https://www.earthdata.nasa.gov/learn/earth-observation-data-basics/remote-sensing)
+MCA
 :::
 
+::: {.r-vstack}
+![](images/themenfeld4-Raumzeitliche Analyse und Modellierung.webp){width="100%" style="border-radius: 50%; aspect-ratio: 1; object-fit: cover;"}
 
-
-
-
-## {data-background-image="images/spatial_resolution.jpg" data-background-size="contain"}
-
-
-:::{.notes}
-- **Vier Auflösungsarten** - Radiometrisch, räumlich, spektral und temporal bestimmen die Nutzbarkeit von Satellitendaten
-- **Radiometrische Auflösung** - Anzahl der Bits pro Pixel (z.B. 8-Bit = 256 Werte von 0-255) bestimmt Unterscheidungsfähigkeit
-- **Höhere Bit-Werte** - Mehr digitale Werte ermöglichen bessere Diskriminierung selbst geringster Energieunterschiede
-- **Anwendungsbeispiel** - Hohe radiometrische Auflösung nötig für Wasserqualitätsmessungen, um subtile Ozeanfarbunterschiede zu
-  erkennen
-
+Spatiotemporal ML
 :::
 
-::: footer
-Quelle: [nasa.gov](https://www.earthdata.nasa.gov/learn/earth-observation-data-basics/remote-sensing)
-:::
+::::
 
+## {.smaller}
+
+<div style="display: grid; grid-template-columns: 30% 70%; gap: 2rem; align-items: center;">
+
+<div style="text-align: center;">
+![](images/krymowsky.png){style="border-radius: 50%; aspect-ratio: 1; object-fit: cover;"}
+
+**Meggie Krymowsky**
+</div>
+
+<div>
+> Direkt nach dem Studium durfte ich spannende Projekte umsetzen – von Digital Twin bei der Axpo bis hin zu Satellitendaten-Analysen und Machine Learning. Dank des breit gefächerten Studiums habe ich ein starkes Grundverständnis, das es mir leicht macht, auch in neuen Themen schnell Lösungen zu finden.
+</div>
+
+</div>
 
 
 
