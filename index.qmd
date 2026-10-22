@@ -190,11 +190,33 @@ Quelle: [dlr.de](https://www.dlr.de/eoc/en/desktopdefault.aspx/tabid-12632/22039
 :::
 
 
-## Paradigmenwechsel 
+## Paradigmenwechsel
 
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 3rem;">
 
-- ~~Daten → Code~~
-- Code → Daten
+<div style="opacity: 0.5;">
+**~~Früher~~**
+
+1. Satellitendaten identifizieren
+2. Hunderte GB herunterladen
+3. Lokal verarbeiten (Stunden–Tage)
+4. Ergebnis teilen
+
+~~Daten → Code~~
+</div>
+
+<div>
+**Heute**
+
+1. Script schreiben
+2. Auf Cloud-Infrastruktur ausführen
+3. Ergebnis sofort visualisieren
+4. Script teilen
+
+**Code → Daten**
+</div>
+
+</div>
 
 
 
@@ -211,8 +233,17 @@ Quelle: [dlr.de](https://www.dlr.de/eoc/en/desktopdefault.aspx/tabid-12632/22039
 - pipsCloud 
 
 ::: {.notes}
-Über die Jahre ist eine große Anzahl von EO-Plattformen entstanden.
-Ich finde die openEO-Plattform besonders vielversprechend
+Über die Jahre ist eine große Anzahl von EO-Plattformen entstanden. Kurze Übersicht:
+
+- **GEE**: Der Platzhirsch. Reif, grosse Community, JavaScript & Python API, kostenlos für Forschung & Lehre. Läuft vollständig auf Google-Infrastruktur.
+- **Microsoft Planetary Computer (MPC)**: Microsofts Antwort auf GEE (~2021). Python-basiert, STAC/xarray-Ökosystem, Integration mit Azure. Mehr DIY als GEE.
+- **Earth on AWS**: Amazon stellt EO-Daten in der Cloud bereit, aber kaum integrierte Analyseumgebung — man baut die Pipeline selbst.
+- **Sentinel Hub**: Kommerziell (Sinergise), stark für Sentinel-Daten, OGC-Standards, gute API — aber kostenpflichtig bei grösserem Volumen.
+- **OpenEO**: Kein Backend, sondern ein offener API-Standard, der verschiedene Backends (GEE, MPC, EODC...) einheitlich anspricht. R und Python. Ich finde dies besonders vielversprechend.
+- **Open Data Cube (ODC)**: Open-Source, läuft auf eigener Infrastruktur. Wird von nationalen Agenturen genutzt (z.B. Digital Earth Australia).
+- **SEPAL**: FAO-Plattform für Waldmonitoring, basiert auf ODC. Fokus auf Länder mit begrenzter IT-Infrastruktur.
+- **JEODPP**: JRC (EU-Kommission) interne Plattform für Copernicus-Daten. Kaum öffentlich zugänglich.
+- **pipsCloud**: Schweizer Plattform (swisstopo/MeteoSchweiz-Umfeld). Noch wenig verbreitet.
 :::
 
 ## Plattform-Übersicht
@@ -221,7 +252,7 @@ Gomes et al. (2020): An Overview of Platforms for Big Earth Observation Data Man
 
 [https://doi.org/10.3390/rs12081253](https://doi.org/10.3390/rs12081253)
 
-(veraltet)
+(etwas oudated, aber in vielen Punkten noch zutreffendd)
 
 ::: {.notes}
 MPC und AWS fehlen!
@@ -243,9 +274,10 @@ OpenEO:
 
 ## Plattform-Vergleich
 
-> ...die meisten Leute bevorzugen GEE hauptsächlich, weil es das gute alte zuverlässige System ist, wenn es um EO-Daten in der Cloud geht. Ausgereift, gut dokumentiert und eine riesige Community.
->
-> MPC ist der neue Spieler im Feld, sie bieten eine abgespeckte Version von GEE mit dem zusätzlichen Vorteil, die eigene Computing-Umgebung auf Azure zu verbinden.
+> ...most people prefer GEE mostly because it's the good ol' reliable when it comes to EO data on the cloud. Mature, well-documented and a huge community. 
+
+
+> MPC [Microsoft Planetary Computer] is the new kid on the block, they provide a more bare-bone version of GEE...
 
 ::: footer
 [Quelle](https://www.reddit.com/r/remotesensing/comments/16cddfa/confused_on_the_big_data_platforms/)
@@ -253,15 +285,38 @@ OpenEO:
 
 ## CO2-Fußabdruck?
 
+- Der ICT-Sektor verursacht **~2–4%** der globalen CO2-Emissionen — vergleichbar mit dem Luftverkehr
+- Rechenzentren verbrauchen **~1–2%** des weltweiten Stroms
+- Google gibt an, seit 2007 CO2-neutral zu sein (Kompensation) — das schliesst GEE ein
+- Trotzdem: mehr Nutzung = mehr Energie
+
 [cloudcarbonfootprint.org](https://www.cloudcarbonfootprint.org/)
 
-::: {.notes}
-- Cloud Computing ist ein wichtiger Beitrag zur globalen Erwärmung
-- Es gibt eine Reihe von Tools zur Berechnung des CO2-Fußabdrucks Ihrer Cloud-Nutzung
-- Es ist wichtig, sich dessen bewusst zu sein
-:::
-
 # Google Earth Engine {data-background-image="images/earth-2254769_1280.jpg"}
+
+## Was macht GEE besonders?
+
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem;">
+
+<div>
+**Datenkatalog**
+
+- Petabytes an Satellitendaten
+- Landsat (seit 1972), Sentinel-2, MODIS, ...
+- Klimadaten, Geländemodelle, Populationsdaten
+- Täglich aktualisiert
+</div>
+
+<div>
+**Cloud-Computing**
+
+- Keine lokale Installation nötig
+- Keine Downloads
+- Verarbeitung läuft auf Google-Servern
+- Kostenlos für Forschung & Lehre
+</div>
+
+</div>
 
 ## Bevor wir anfangen...
 
