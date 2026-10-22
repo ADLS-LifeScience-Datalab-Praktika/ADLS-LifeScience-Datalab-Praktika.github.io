@@ -1,0 +1,111 @@
+
+# Fernerkundung  {data-background-image="images/atmosphere_geo5_2018235_lrg.jpg" data-background-size="contain" visibility="hidden"}
+
+(Remote Sensing)
+
+:::{.notes}
+- **Definition:**
+  - Erfassung von Informationen über Objekte/Gebiete ohne direkten physischen Kontakt
+  - Nutzung elektromagnetischer Strahlung (Licht, Infrarot, Radar, etc.)
+- **Unterschied zu In-Situ Messungen:**
+  - Vorteil: Grossflächige, kontinuierliche, wiederholbare Erfassung
+  - Nachteil: Indirekte Messungen, Kalibrierung notwendig
+:::
+
+# {data-background-image="images/atmosphere_geo5_2018235_lrg_2.jpg" data-background-size="contain" visibility="hidden"}
+
+:::{.notes}
+- **Globale Aerosol-Verteilung am 23. August 2018**: Das Bild zeigt verschiedene Partikel in der Atmosphäre: Rauch (rot), Staub (violett) und Meersalz (blau)
+- **Massive Rauchfahnen**: Große Waldbrände in Nordamerika und saisonale Brandrodung in Afrika erzeugen ausgedehnte schwarze Kohlenstoffwolken
+- **Tropische Wirbelstürme**: Drei Zyklone im Pazifik (inkl. Hurrikan Lane bei Hawaii) sind als große blaue Meersalz-Wirbel sichtbar
+- **Wüstenstaub-Transport**:  Violette Staubwolken werden über große Distanzen von afrikanischen und asiatischen Wüsten transportiert
+- **NASA-Modellierung**: Die Visualisierung stammt aus dem GEOS FP-Modell, das Satellitendaten und Bodenmessungen kombiniert, um
+  Aerosol-Bewegungen zu berechnen
+
+
+:::
+
+
+
+
+## {visibility="hidden"}
+
+
+{{< video https://youtu.be/b4eLTYUcj7k?si=VPyiLeHQQ41hie6I width="100%" height="100%" >}}
+
+:::{.notes}
+- Globale Perspektive: Ganze Erde beobachtbar
+- Zeitreihen: Veränderungen über Jahrzehnte verfolgbar
+- Unzugängliche Gebiete: Arktis, Ozean, Krisengebiete
+- Multispektral: Mehr als das menschliche Auge sieht
+- Schnelle Reaktion: Katastrophen, Waldbrände in Echtzeit
+- Big Data: Millionen von Bildern täglich verfügbar
+:::
+
+
+
+## {data-background-image="images/Capella-Space-Rodnykivka-airfield-1.jpg" data-background-size="contain" visibility="hidden"}
+
+
+## {data-background-image="images/EMS-Introduction_0.jpeg" data-background-size="contain" visibility="hidden"}
+
+
+:::{.notes}
+- **Elektromagnetisches Spektrum** - Energie bewegt sich als Wellen unterschiedlicher Wellenlängen; sichtbares Licht ist nur ein
+  kleiner Teil, den das menschliche Auge erkennt
+- **Atmosphärische Durchdringung** - Verschiedene Wellenlängen verhalten sich unterschiedlich: Mikrowellen durchdringen Wolken,
+  während andere absorbiert oder reflektiert werden
+- **Reflexion und Absorption** - Oberflächen haben unterschiedliche Albedo-Werte: Schnee reflektiert 90% des Sonnenlichts, Ozean nur
+  6%
+- **Spektrale Fingerabdrücke** - Jedes Material auf der Erde hat ein einzigartiges Reflexions-/Absorptionsmuster, wodurch Forscher
+  verschiedene Materialien identifizieren können
+
+:::
+
+
+::: footer
+Quelle: [nasa.gov](https://www.earthdata.nasa.gov/learn/earth-observation-data-basics/remote-sensing)
+:::
+
+## {data-background-image="images/active-passive-remote-sensing.png" data-background-size="contain" visibility="hidden"}
+
+
+:::{.notes}
+- **Passive Instrumente** - Nutzen natürliches Sonnenlicht als Energiequelle und messen reflektierte elektromagnetische Strahlung
+  (Radiometer, Spektrometer)
+- **Active Instrumente** - Senden eigene Energie aus und messen die Rückstreuung (Radar, Altimeter, Scatterometer im Mikrowellenbereich)
+- **Passive Anwendungen** - Messen Oberflächentemperatur, Vegetationseigenschaften und Aerosole, aber können dichte Wolkendecke nicht
+   durchdringen
+- **Active Vorteile** - Können Atmosphäre unter fast allen Bedingungen durchdringen und messen Waldstruktur, Niederschlag und
+  Meerestopographie
+
+
+:::
+
+
+::: footer
+Quelle: [nasa.gov](https://www.earthdata.nasa.gov/learn/earth-observation-data-basics/remote-sensing)
+:::
+
+
+
+
+
+## {data-background-image="images/spatial_resolution.jpg" data-background-size="contain" visibility="hidden"}
+
+
+:::{.notes}
+- **Vier Auflösungsarten** - Radiometrisch, räumlich, spektral und temporal bestimmen die Nutzbarkeit von Satellitendaten
+- **Radiometrische Auflösung** - Anzahl der Bits pro Pixel (z.B. 8-Bit = 256 Werte von 0-255) bestimmt Unterscheidungsfähigkeit
+- **Höhere Bit-Werte** - Mehr digitale Werte ermöglichen bessere Diskriminierung selbst geringster Energieunterschiede
+- **Anwendungsbeispiel** - Hohe radiometrische Auflösung nötig für Wasserqualitätsmessungen, um subtile Ozeanfarbunterschiede zu
+  erkennen
+
+:::
+
+::: footer
+Quelle: [nasa.gov](https://www.earthdata.nasa.gov/learn/earth-observation-data-basics/remote-sensing)
+:::
+
+
+
