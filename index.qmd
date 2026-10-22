@@ -649,12 +649,11 @@ Deine Aufgabe für heute Nachmittag:
 1. Wähle ein Gewässer deiner Wahl (z.B. Grimselsee, Lago di Lugano, Zürichsee) und berechne den **NDWI** über mehrere Jahre
 2. Vergleiche ein Trockenjahr (z.B. 2018 oder 2022) mit einem Normaljahr und visualisiere die Unterschiede
 3. Lade deine Ergebnisse (z.B. als CSV oder GeoTIFF) auf deine lokale Festplatte herunter
-4. Schreibe eine kurze Beschreibung deiner Analyse und deiner Ergebnisse (verwende Jupyter, Rmarkdown oder Quarto)
-5. (Optional): Sende per E-Mail an rata@zhaw.ch
+4. Optional: Schreibe eine kurze Beschreibung deiner Analyse und deiner Ergebnisse (verwende Jupyter, Rmarkdown oder Quarto)
 
-# Leistungsnachweis {data-background-image="images/sunflowers-8980921_1280.jpg"}
+# Leistungsnachweis {data-background-image="images/sunflowers-8980921_1280.jpg" visibility="hidden"}
 
-## Aufgabendetails
+## Aufgabendetails{visibility="hidden"}}
 
 Wenden Sie ihr gelerntes Wissen aus beiden Einheiten an, um Ihr eigenes Forschungsprojekt zu entwerfen und auszuarbeiten. Beschreiben Sie die Motivation, einen geeigneten Analyseansatz und anwendbare Remote Sensing Daten.
 
