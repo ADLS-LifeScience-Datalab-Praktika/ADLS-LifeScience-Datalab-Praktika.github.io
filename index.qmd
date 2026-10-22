@@ -638,7 +638,6 @@ In Sentinel-2: **NIR = Band 8**, **Red = Band 4**
 :::
 
 
-## Demo 5: Waldnachwachstum
 
 # Ihr eigenes Projekt in Google Earth Engine {data-background-image="images/turtle-1850190_1280.jpg"}
 
@@ -653,7 +652,7 @@ Deine Aufgabe für heute Nachmittag:
 
 # Leistungsnachweis {data-background-image="images/sunflowers-8980921_1280.jpg" visibility="hidden"}
 
-## Aufgabendetails{visibility="hidden"}}
+## Aufgabendetails{visibility="hidden"}
 
 Wenden Sie ihr gelerntes Wissen aus beiden Einheiten an, um Ihr eigenes Forschungsprojekt zu entwerfen und auszuarbeiten. Beschreiben Sie die Motivation, einen geeigneten Analyseansatz und anwendbare Remote Sensing Daten.
 
