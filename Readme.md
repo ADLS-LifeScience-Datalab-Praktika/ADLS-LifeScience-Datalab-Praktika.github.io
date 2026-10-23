@@ -11,6 +11,17 @@
 
 
 
+## Notizen 2026
+
+- Theoretischer Input zu Beginn war ganz gut. Passt in die erste Lektion, so dass nach dem Input noch eine Pause von 10 - 15min bleibt
+- Dieses Jahr habe ich die Abschweifung in "Webseiten erstellen" gelassen. Es schien mir nicht angebracht.
+- **Viele Studierende haben die Vertiefung bereits gewählt** und sind entsprechend wenig motiviert – Ziel ist die *Unentschlossenen* zu überzeugen
+- Viele "schliefen durch" – rein passives Format (Input + Demos) reicht für einen ganzen Tag nicht
+- Was in Geospatial Computing (UI) gut funktioniert hat: **Gruppenherausforderungen mit Zeitlimit**, Ergebnisse von Hand berechnen und ASAP im Plenum vergleichen/diskutieren. Zum Beispiel: Slope/Aspect als Gruppenaufgabe prüfen: anschaulich, rechenbar, direkt in GEE reproduzierbar
+- Überlegung: eigenen Leistungsnachweis für den GEE-Teil einführen → mehr Verbindlichkeit, aber auch mehr Korrekturaufwand
+- Mehr Remote Sensing Grundlagen in die Demos einbauen
+- **Devise für 2027: Struktur!!!!**: Das muss nicht aufwendig sein. Aber die Studis brauchen ein Programm mit Eckpunkten. Das ganze soll ja schliesslich eine *experiance* sein :-)
+
 ## Timeline
 
 | Time          | Topic                                                                                           |
